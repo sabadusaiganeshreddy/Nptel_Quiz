@@ -19,7 +19,7 @@ const QuizPage = ({ quizData, onBackToHome }) => {
     selectedUnits,
     selectedUnit,
     selectedYears,
-    mode
+    mode,
   } = quizData;
 
   const [quizQuestions, setQuizQuestions] = useState([]);
@@ -119,79 +119,79 @@ const QuizPage = ({ quizData, onBackToHome }) => {
 
   return (
     <Container className="mt-4">
-      <Card className="p-4 d-flex flex-column justify-content-between">
-        <div>
-          <h5>
-            Q{currentQuestionIndex + 1}: {currentQuestion.question}
-          </h5>
+      <Card className="px-3 py-4">
+        <h5>
+          Q{currentQuestionIndex + 1}: {currentQuestion.question}
+        </h5>
 
-          <div className="mt-3">
-            {currentQuestion.options.map((opt, index) => (
-          <Button
-          key={index}
-          variant={
-            checked
-              ? Array.isArray(currentQuestion.answer)
-                ? currentQuestion.answer.includes(index)
-                  ? "success"
-                  : userAnswer.includes(index)
-                    ? "danger"
-                    : "outline-secondary"
-                : currentQuestion.answer === index
-                ? "success"
-                : userAnswer === index
-                ? "danger"
-                : "outline-secondary"
-              : Array.isArray(userAnswer)
+        <div className="mt-3">
+          {currentQuestion.options.map((opt, index) => {
+            const isSelected = Array.isArray(userAnswer)
               ? userAnswer.includes(index)
-                ? "primary"
-                : "outline-secondary"
-              : userAnswer === index
-              ? "primary"
-              : "outline-secondary"
-          }
-          className="d-block mb-2 w-100 text-start"
-          onClick={() => handleOptionClick(index)}
-        >
-          {opt}
-        </Button>
-        
-            ))}
-          </div>
+              : userAnswer === index;
 
-          <div className="d-flex justify-content-between gap-2 mt-3"> 
-            <Button variant="warning" onClick={handleCheckAnswer}>
-              ✅ Check Answer
-            </Button>
-            <div className="d-flex gap-2">
-              <Button
-                variant="secondary"
-                onClick={handlePrev}
-                disabled={currentQuestionIndex === 0}
-              >
-                ⬅ Previous
-              </Button>
-              <Button
-                onClick={handleNext}
-                disabled={currentQuestionIndex === quizQuestions.length - 1}
-              >
-                ➡ Next
-              </Button>
-              <Button
-                variant="outline-secondary"
-                onClick={onBackToHome}
-              >
-                🔙 Back to Home
-              </Button>
-            </div>
-          </div>
+            const isCorrectOption = Array.isArray(currentQuestion.answer)
+              ? currentQuestion.answer.includes(index)
+              : currentQuestion.answer === index;
 
-          {checked && (
-            <Alert className="mt-3" variant={isCorrect ? "success" : "danger"}>
-              {isCorrect ? "✅ Correct!" : "❌ Incorrect."}
-            </Alert>
-          )}
+            let variant = "outline-secondary";
+
+            if (checked) {
+              if (isCorrectOption) {
+                variant = "success";
+              } else if (isSelected && !isCorrectOption) {
+                variant = "danger";
+              }
+            } else if (isSelected) {
+              variant = "primary";
+            }
+
+            return (
+              <Button
+                key={index}
+                variant={variant}
+                className="d-block mb-2 w-100 text-start text-wrap"
+                onClick={() => handleOptionClick(index)}
+              >
+                {opt}
+              </Button>
+            );
+          })}
         </div>
+
+        <div className="d-flex flex-column flex-md-row justify-content-between gap-2 mt-3">
+          <Button variant="warning" onClick={handleCheckAnswer}>
+            ✅ Check Answer
+          </Button>
+
+          <div className="d-flex flex-column flex-sm-row gap-2 w-100 justify-content-end">
+            <Button
+              variant="secondary"
+              onClick={handlePrev}
+              disabled={currentQuestionIndex === 0}
+            >
+              ⬅ Previous
+            </Button>
+            <Button
+              onClick={handleNext}
+              disabled={currentQuestionIndex === quizQuestions.length - 1}
+            >
+              ➡ Next
+            </Button>
+            <Button
+              variant="outline-secondary"
+              onClick={onBackToHome}
+            >
+              🔙 Back to Home
+            </Button>
+          </div>
+        </div>
+
+        {checked && (
+          <Alert className="mt-3" variant={isCorrect ? "success" : "danger"}>
+            {isCorrect ? "✅ Correct!" : "❌ Incorrect."}
+          </Alert>
+        )}
       </Card>
     </Container>
   );

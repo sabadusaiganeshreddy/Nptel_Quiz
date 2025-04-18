@@ -53,5 +53,38 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+/* 🔽 Responsive font sizing and layout tweaks */
+@media (max-width: 576px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h4, h5 {
+    font-size: 1.1rem;
+  }
+
+  button {
+    font-size: 0.95rem;
+    padding: 0.5em 1em;
+  }
+
+  .card {
+    padding: 1rem !important;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  h1 {
+    font-size: 2.4rem;
+  }
+
+  h4, h5 {
+    font-size: 1.2rem;
+  }
+
+  button {
+    font-size: 1rem;
+  }
+}
 
 
