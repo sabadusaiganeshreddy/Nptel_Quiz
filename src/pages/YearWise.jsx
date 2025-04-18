@@ -26,6 +26,7 @@ const YearWise = ({ onStartQuiz, onBackToHome }) => {
     onStartQuiz({
       selectedYear,
       selectedUnits,
+        mode: "year-wise"
     });
   };
 

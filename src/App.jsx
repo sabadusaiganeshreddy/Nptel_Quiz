@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import HomePage from "./pages/HomePage";
 import YearWise from "./pages/YearWise";
 import QuizPage from "./pages/QuizPage";
+import UnitWise from "./pages/UnitWise";
+
 
 function App() {
   const [mode, setMode] = useState(null);
@@ -30,6 +32,12 @@ function App() {
           onBackToHome={handleBackToHome} // ✅ passing back handler
         />
       )}
+{mode === "unit-wise" && !quizData && (
+  <UnitWise
+    onStartQuiz={handleStartQuiz}
+    onBackToHome={handleBackToHome}
+  />
+)}
 
       {quizData && (
         <QuizPage
