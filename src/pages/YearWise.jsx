@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { Container, Form, Button, Card } from "react-bootstrap";
 import questionsData from "../data/questions";
 
-const YearWise = ({ onStartQuiz }) => {
+const YearWise = ({ onStartQuiz, onBackToHome }) => {
   const [selectedYear, setSelectedYear] = useState("");
   const [selectedUnits, setSelectedUnits] = useState([]);
 
@@ -60,9 +60,15 @@ const YearWise = ({ onStartQuiz }) => {
           </>
         )}
 
-        <Button className="mt-4" onClick={handleStart}>
-          Start Quiz
-        </Button>
+        <div className="d-flex justify-content-between align-items-center mt-4">
+          <Button onClick={onBackToHome}>
+            🔙 Back to Home
+          </Button>
+          <Button variant="primary" onClick={handleStart}>
+            Start Quiz
+          </Button>
+        </div>
+
       </Card>
     </Container>
   );

@@ -150,6 +150,17 @@ const QuizPage = ({ quizData, onBackToHome }) => {
             {isCorrect ? "✅ Correct!" : "❌ Incorrect."}
           </Alert>
         )}
+
+        <div className="d-flex justify-content-end mt-3"> {/* Added this div */}
+          <Button
+            variant="outline-secondary"
+            className="mb-3"
+            onClick={onBackToHome}
+          >
+            🔙 Back to Home
+          </Button>
+        </div>
+
       </Card>
     </Container>
   );

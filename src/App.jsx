@@ -15,20 +15,28 @@ function App() {
     setQuizData(data);
   };
 
+  const handleBackToHome = () => {
+    setQuizData(null);
+    setMode(null);
+  };
+
   return (
     <>
       {!mode && <HomePage onModeSelect={handleModeSelect} />}
-      {mode === "year-wise" && !quizData && <YearWise onStartQuiz={handleStartQuiz} />}
-      {quizData && (
-  <QuizPage
-    quizData={quizData}
-    onBackToHome={() => {
-      setQuizData(null);
-      setMode(null);
-    }}
-  />
-)}
 
+      {mode === "year-wise" && !quizData && (
+        <YearWise
+          onStartQuiz={handleStartQuiz}
+          onBackToHome={handleBackToHome} // ✅ passing back handler
+        />
+      )}
+
+      {quizData && (
+        <QuizPage
+          quizData={quizData}
+          onBackToHome={handleBackToHome}
+        />
+      )}
     </>
   );
 }
