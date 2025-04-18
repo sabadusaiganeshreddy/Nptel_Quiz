@@ -127,14 +127,35 @@ const QuizPage = ({ quizData, onBackToHome }) => {
 
           <div className="mt-3">
             {currentQuestion.options.map((opt, index) => (
-              <Button
-                key={index}
-                variant={userAnswer === index ? "primary" : "outline-secondary"}
-                className="d-block mb-2 w-100 text-start"
-                onClick={() => handleOptionClick(index)}
-              >
-                {opt}
-              </Button>
+          <Button
+          key={index}
+          variant={
+            checked
+              ? Array.isArray(currentQuestion.answer)
+                ? currentQuestion.answer.includes(index)
+                  ? "success"
+                  : userAnswer.includes(index)
+                    ? "danger"
+                    : "outline-secondary"
+                : currentQuestion.answer === index
+                ? "success"
+                : userAnswer === index
+                ? "danger"
+                : "outline-secondary"
+              : Array.isArray(userAnswer)
+              ? userAnswer.includes(index)
+                ? "primary"
+                : "outline-secondary"
+              : userAnswer === index
+              ? "primary"
+              : "outline-secondary"
+          }
+          className="d-block mb-2 w-100 text-start"
+          onClick={() => handleOptionClick(index)}
+        >
+          {opt}
+        </Button>
+        
             ))}
           </div>
 
