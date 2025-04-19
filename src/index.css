@@ -86,5 +86,20 @@ button:focus-visible {
     font-size: 1rem;
   }
 }
+.container-fluid {
+  padding: 0 1rem; /* Add some horizontal padding for better appearance */
+}
+
+/* Reduce button size slightly to save space */
+.btn-lg {
+  padding: 0.5rem 1rem; /* Slightly smaller padding than default lg buttons */
+  font-size: 1.1rem; /* Slightly smaller font size */
+}
+
+/* Ensure the body and html take full height */
+html, body {
+  height: 100%;
+  margin: 0;
+}
 
 

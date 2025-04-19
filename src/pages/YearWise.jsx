@@ -1,10 +1,23 @@
-// src/pages/YearWise.jsx
-
 import React, { useState } from "react";
 import { Container, Form, Button, Card } from "react-bootstrap";
-import questionsData from "../data/questions";
 
-const YearWise = ({ onStartQuiz, onBackToHome }) => {
+// Import all course-wise question data
+import cloudComputing from "../data/cloudComputing";
+import computerNetworks from "../data/computerNetworks";
+import dataAnalytics from "../data/dataAnalytics";
+import affectiveComputing from "../data/affectiveComputing";
+
+
+// Mapping course keys to their question sets
+const allCourses = {
+  "cloud-computing": cloudComputing,
+  "computer-networks": computerNetworks,
+  "data-analytics": dataAnalytics,
+  "affective-computing": affectiveComputing,
+};
+
+const YearWise = ({ onStartQuiz, onBackToHome, selectedCourse }) => {
+  const questionsData = allCourses[selectedCourse];
   const [selectedYear, setSelectedYear] = useState("");
   const [selectedUnits, setSelectedUnits] = useState([]);
 
@@ -26,7 +39,8 @@ const YearWise = ({ onStartQuiz, onBackToHome }) => {
     onStartQuiz({
       selectedYear,
       selectedUnits,
-        mode: "year-wise"
+      selectedCourse,
+      mode: "year-wise",
     });
   };
 
@@ -61,15 +75,14 @@ const YearWise = ({ onStartQuiz, onBackToHome }) => {
           </>
         )}
 
-        <div className="d-flex justify-content-between align-items-center mt-4">
-          <Button onClick={onBackToHome}>
-            🔙 Back to Home
+        <div className="d-flex justify-content-between align-items-center mt-4 flex-wrap gap-2">
+          <Button variant="outline-secondary" onClick={onBackToHome}>
+            🔙 Back to Course
           </Button>
           <Button variant="primary" onClick={handleStart}>
-            Start Quiz
+            🚀 Start Quiz
           </Button>
         </div>
-
       </Card>
     </Container>
   );

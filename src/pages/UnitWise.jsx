@@ -1,8 +1,23 @@
 import React, { useState } from "react";
 import { Container, Form, Button, Card } from "react-bootstrap";
-import questionsData from "../data/questions";
 
-const UnitWise = ({ onStartQuiz, onBackToHome }) => {
+// 🧠 All course-wise imports
+import cloudComputing from "../data/cloudComputing";
+import computerNetworks from "../data/computerNetworks";
+import dataAnalytics from "../data/dataAnalytics";
+import affectiveComputing from "../data/affectiveComputing";
+
+
+// 📦 Dynamic map for course-wise access
+const allCourses = {
+  "cloud-computing": cloudComputing,
+  "computer-networks": computerNetworks,
+  "data-analytics": dataAnalytics,
+  "affective-computing": affectiveComputing,
+};
+
+const UnitWise = ({ onStartQuiz, onBackToHome, selectedCourse }) => {
+  const questionsData = allCourses[selectedCourse];
   const [selectedUnit, setSelectedUnit] = useState("");
   const [selectedYears, setSelectedYears] = useState([]);
 
@@ -25,16 +40,17 @@ const UnitWise = ({ onStartQuiz, onBackToHome }) => {
     onStartQuiz({
       selectedUnit,
       selectedYears,
-      mode: "unit-wise"
+      selectedCourse,
+      mode: "unit-wise",
     });
   };
 
   return (
     <Container className="mt-4">
       <Card className="p-4">
-        <h4>Select Unit</h4>
+        <h4 className="mb-3">Select Unit</h4>
         <Form.Select
-          className="mb-3"
+          className="mb-4"
           onChange={(e) => setSelectedUnit(e.target.value)}
         >
           <option value="">-- Select Unit --</option>
@@ -45,7 +61,7 @@ const UnitWise = ({ onStartQuiz, onBackToHome }) => {
           ))}
         </Form.Select>
 
-        <h5>Select Years</h5>
+        <h5 className="mb-2">Select Years</h5>
         {allYears.map((year) => (
           <Form.Check
             key={year}
@@ -56,15 +72,14 @@ const UnitWise = ({ onStartQuiz, onBackToHome }) => {
           />
         ))}
 
-        <div className="d-flex justify-content-between align-items-center mt-4">
+        <div className="d-flex justify-content-between align-items-center mt-4 flex-wrap gap-2">
           <Button variant="outline-secondary" onClick={onBackToHome}>
-            🔙 Back to Home
+            🔙 Back to Course
           </Button>
           <Button variant="primary" onClick={handleStart}>
-            Start Quiz
+            🚀 Start Quiz
           </Button>
         </div>
-
       </Card>
     </Container>
   );

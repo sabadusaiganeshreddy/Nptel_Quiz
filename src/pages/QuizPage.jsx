@@ -1,26 +1,41 @@
 import React, { useState, useEffect } from "react";
 import { Container, Card, Button, Alert } from "react-bootstrap";
-import questionsData from "../data/questions";
+
+// Course-wise imports
+import cloudComputing from "../data/cloudComputing";
+import computerNetworks from "../data/computerNetworks";
+import dataAnalytics from "../data/dataAnalytics";
+import affectiveComputing from "../data/affectiveComputing";
+
+
+// Map for accessing by course key
+const allCourses = {
+  "cloud-computing": cloudComputing,
+  "computer-networks": computerNetworks,
+  "data-analytics": dataAnalytics,
+  "affective-computing": affectiveComputing,
+};
 
 const QuizPage = ({ quizData, onBackToHome }) => {
   if (!quizData) {
     return (
       <Container className="text-center mt-5">
         <h4>Invalid quiz data. Please go back and try again.</h4>
-        <Button className="mt-3" onClick={onBackToHome}>
-          Back
-        </Button>
+        <Button className="mt-3" onClick={onBackToHome}>Back</Button>
       </Container>
     );
   }
 
   const {
+    selectedCourse,
     selectedYear,
     selectedUnits,
     selectedUnit,
     selectedYears,
     mode,
   } = quizData;
+
+  const questionsData = allCourses[selectedCourse];
 
   const [quizQuestions, setQuizQuestions] = useState([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -46,7 +61,7 @@ const QuizPage = ({ quizData, onBackToHome }) => {
     }
 
     setQuizQuestions(questions);
-  }, [selectedYear, selectedUnits, selectedYears, selectedUnit, mode]);
+  }, [questionsData, selectedYear, selectedUnits, selectedYears, selectedUnit, mode]);
 
   const currentQuestion = quizQuestions[currentQuestionIndex];
   const userAnswer = userAnswers[currentQuestion?.id] ?? [];
@@ -110,9 +125,7 @@ const QuizPage = ({ quizData, onBackToHome }) => {
     return (
       <Container className="text-center mt-5">
         <h4>No questions found for selected criteria.</h4>
-        <Button className="mt-3" onClick={onBackToHome}>
-          Back
-        </Button>
+        <Button className="mt-3" onClick={onBackToHome}>Back</Button>
       </Container>
     );
   }
