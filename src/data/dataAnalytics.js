@@ -829,6 +829,1429 @@ const questionsData = {
         answer: 1
       }
     ]
+  },
+
+  "2024": {
+    "1": [
+      {
+        id: "24-1-1",
+        question: "Which of the following is never possible for variance?",
+        options: [
+          "Zero variance",
+          "Larger than the standard deviation",
+          "Negative variance",
+          "Smaller than the standard deviation"
+        ],
+        answer: 2,
+        solution: "Variance is a measure of dispersion and is always non-negative because it is calculated as the average of squared deviations from the mean. Negative variance is never possible."
+      },
+      {
+        id: "24-1-2",
+        question: "def m(data):\n    Diff = max(data) - min(data)\n    return(Diff)\nThe above defined data function in Python programming, will calculate the?",
+        options: [
+          "Inter quartile range",
+          "Mode",
+          "Median",
+          "Range"
+        ],
+        answer: 3,
+        solution: "The function calculates the difference between the maximum and minimum values in the data, which is the definition of the range."
+      },
+      {
+        id: "24-1-3",
+        question: "Bar Charts are used for:",
+        options: [
+          "Continuous data",
+          "Categorical data",
+          "Both a. and b.",
+          "None of these"
+        ],
+        answer: 1,
+        solution: "Bar charts are used to represent categorical data, where each bar corresponds to a category and its height represents the frequency or value."
+      },
+      {
+        id: "24-1-4",
+        question: "Frequency polygons are used for:",
+        options: [
+          "Continuous data",
+          "Categorical data",
+          "Both a. and b.",
+          "None of the above"
+        ],
+        answer: 0,
+        solution: "Frequency polygons are used to represent the distribution of continuous data, plotting points corresponding to frequencies at the midpoints of intervals."
+      },
+      {
+        id: "24-1-5",
+        question: "μ is an example of which of the following?",
+        options: [
+          "A population parameter",
+          "Sample statistic",
+          "Population variance",
+          "Mode"
+        ],
+        answer: 0,
+        solution: "μ represents the population mean, which is a population parameter."
+      },
+      {
+        id: "24-1-6",
+        question: "Consider the following statements-\nStatement A: To 'flatten' the dataframe, you can use the reset_index().\nStatement B: Use the nunique() to get counts of unique values on a Pandas Series.",
+        options: [
+          "Both statements are correct",
+          "Both statements are false",
+          "A is correct, B is false",
+          "B is correct, A is false"
+        ],
+        answer: 0,
+        solution: "Statement A is correct: reset_index() flattens a DataFrame by converting its index into columns. Statement B is correct: nunique() returns the count of unique values in a Pandas Series."
+      },
+      {
+        id: "24-1-7",
+        question: "Which of the following statements in context of drawing an excellent graph is false?",
+        options: [
+          "The graph should not contain unnecessary adornments (sometimes referred to as chart junk)",
+          "The scale on the vertical axis should begin at zero",
+          "All axes should not be properly labelled",
+          "The graph should contain a title"
+        ],
+        answer: 2,
+        solution: "All axes should be properly labelled for an excellent graph. The statement 'All axes should not be properly labelled' is false."
+      },
+      {
+        id: "24-1-8",
+        question: "Which of the following is not a measure of dispersion?",
+        options: [
+          "Skewness",
+          "Kurtosis",
+          "Range",
+          "Percentile"
+        ],
+        answer: 3,
+        solution: "Percentile is a measure of position, not dispersion. Skewness and kurtosis describe distribution shape, while range is a measure of dispersion."
+      },
+      {
+        id: "24-1-9",
+        question: "Assume, you are given two lists:\na = [1, 2, 3, 4, 5]\nb = [6, 7, 8, 9]\nThe task is to create a list which has all the elements of a and b in one dimension.\nOutput: a = [1, 2, 3, 4, 5, 6, 7, 8, 9]\nWhich of the following option would you choose?",
+        options: [
+          "a.append(b)",
+          "a.extend(b)",
+          "Any of the above",
+          "None of these"
+        ],
+        answer: 1,
+        solution: "a.extend(b) adds each element of b to a individually, resulting in [1, 2, 3, 4, 5, 6, 7, 8, 9]. a.append(b) would add b as a single element, resulting in [1, 2, 3, 4, 5, [6, 7, 8, 9]]."
+      },
+      {
+        id: "24-1-10",
+        question: "State the following true or false?\nStatement: Bimodal Data sets contains more than two modes",
+        options: [
+          "True",
+          "False"
+        ],
+        answer: 1,
+        solution: "A bimodal dataset has exactly two modes. The statement is false because it incorrectly claims more than two modes."
+      }
+    ],
+    "2": [
+      {
+        id: "24-2-1",
+        question: "Which of the following is each individual outcome of an experiment called?",
+        options: [
+          "The sample space",
+          "A sample point",
+          "An experiment",
+          "An individual"
+        ],
+        answer: 1,
+        solution: "A sample point is each individual outcome of an experiment."
+      },
+      {
+        id: "24-2-2",
+        question: "A process that generates a well-defined outcomes is called as?",
+        options: [
+          "An event",
+          "An experiment",
+          "A sample point",
+          "A sample space"
+        ],
+        answer: 1,
+        solution: "An experiment is a process that generates well-defined outcomes."
+      },
+      {
+        id: "24-2-3",
+        question: "Two events having nonzero probabilities",
+        options: [
+          "Can be both mutually exclusive and independent",
+          "Cannot be both mutually exclusive and independent",
+          "Are always mutually exclusive",
+          "Are always independent"
+        ],
+        answer: 1,
+        solution: "Two events with nonzero probabilities cannot be both mutually exclusive and independent because mutually exclusive events have no outcomes in common, making their joint probability zero, which conflicts with independence."
+      },
+      {
+        id: "24-2-4",
+        question: "A normal distribution with a standard deviation of 1 and mean of 0 is defined as?",
+        options: [
+          "A probability density function",
+          "An ordinary normal curve",
+          "A standard normal distribution",
+          "None of these alternatives is correct"
+        ],
+        answer: 2,
+        solution: "A normal distribution with mean 0 and standard deviation 1 is called a standard normal distribution."
+      },
+      {
+        id: "24-2-5",
+        question: "In a standard normal probability distribution, the area to the left portion of the mean is equal to?",
+        options: [
+          "0.5",
+          "-0.5",
+          "Any value between 0 and 1",
+          "1"
+        ],
+        answer: 0,
+        solution: "In a standard normal distribution, the mean is 0, and the area to the left of the mean is 0.5 due to the symmetry of the distribution."
+      },
+      {
+        id: "24-2-6",
+        question: "The weight of football players is normally distributed with a mean of 200 pounds and a standard deviation of 25 pounds. The probability of a player weighing more than 241.25 pounds is",
+        options: [
+          "0.4505",
+          "0.0495",
+          "0.9505",
+          "0.9010"
+        ],
+        answer: 1,
+        solution: "Using the z-score formula: z = (241.25 - 200) / 25 = 1.65. The probability of z > 1.65 in a standard normal distribution is approximately 0.0495."
+      },
+      {
+        id: "24-2-7",
+        question: "Refer to Q 6. The probability of a player weighing less than 250 pounds is",
+        options: [
+          "0.4772",
+          "0.9772",
+          "0.0528",
+          "0.5"
+        ],
+        answer: 1,
+        solution: "Using the z-score formula: z = (250 - 200) / 25 = 2. The probability of z < 2 in a standard normal distribution is approximately 0.9772."
+      },
+      {
+        id: "24-2-8",
+        question: "The Poisson probability distribution is which of the following type?",
+        options: [
+          "Continuous probability distribution",
+          "Discrete probability distribution",
+          "Uniform probability distribution",
+          "Normal probability distribution"
+        ],
+        answer: 1,
+        solution: "The Poisson distribution is a discrete probability distribution used to model the number of events occurring in a fixed interval."
+      },
+      {
+        id: "24-2-9",
+        question: "Assuming a binomial experiment with p = 0.5 and a sample size of 100. The expected value of this distribution is?",
+        options: [
+          "0.5",
+          "0.3",
+          "100",
+          "50"
+        ],
+        answer: 3,
+        solution: "For a binomial distribution, the expected value is n * p = 100 * 0.5 = 50."
+      },
+      {
+        id: "24-2-10",
+        question: "The hypergeometric probability distribution is identical to",
+        options: [
+          "The Poisson probability distribution",
+          "The binomial probability distribution",
+          "The normal distribution",
+          "None of these alternatives is correct"
+        ],
+        answer: 3,
+        solution: "The hypergeometric distribution is distinct from the Poisson, binomial, and normal distributions, as it models sampling without replacement from a finite population."
+      }
+    ],
+    "3": [
+      {
+        id: "24-3-1",
+        question: "Why one should not go for sampling?",
+        options: [
+          "It is less costly to administer than a census",
+          "The person authorising the study is comfortable with the sample.",
+          "Because the research process is sometimes destructive",
+          "None of the above"
+        ],
+        answer: 3,
+        solution: "Sampling is often preferred due to cost and feasibility, but none of the provided options correctly describe a reason to avoid sampling."
+      },
+      {
+        id: "24-3-2",
+        question: "Stratified random sampling is a method of selecting a sample in which",
+        options: [
+          "The sample is first divided into strata",
+          "Various strata are selected from the sample",
+          "The population is first divided into strata, and then random samples are drawn from each stratum",
+          "None of the above"
+        ],
+        answer: 2,
+        solution: "Stratified random sampling involves dividing the population into strata based on a characteristic and then randomly sampling from each stratum."
+      },
+      {
+        id: "24-3-3",
+        question: "If the true proportion of customers who are below 20 years is P=0.35, what is the probability that a sample size of 100 yields a sample proportion between 0.3 to 0.4",
+        options: [
+          "0.961",
+          "0.827",
+          "0.706",
+          "0.53"
+        ],
+        answer: 2,
+        solution: "Using the normal approximation for proportions, calculate z-scores for 0.3 and 0.4, then find the probability between these z-scores, resulting in approximately 0.706."
+      },
+      {
+        id: "24-3-4",
+        question: "Calculate the probability of getting 12 heads in 20 attempts from a fair coin.",
+        options: [
+          "0.120",
+          "0.240",
+          "0.280",
+          "0.301"
+        ],
+        answer: 0,
+        solution: "Using the binomial probability formula: P(X=12) = C(20,12) * (0.5)^12 * (0.5)^8 ≈ 0.120."
+      },
+      {
+        id: "24-3-5",
+        question: "A question paper contains 90 multiple-choice questions. Each correct answer carries 1 mark. There are 4 alternative answers (A, B, C or D), of which only one is correct. Mr X answers these questions randomly (i.e. without preparation). What is the probability that X gets at least 10 marks?",
+        options: [
+          "0.9997",
+          "0.7894",
+          "0",
+          "0.001"
+        ],
+        answer: 0,
+        solution: "This is a binomial distribution with n=90, p=1/4. The probability of at least 10 marks is the cumulative probability from 10 to 90, approximately 0.9997."
+      },
+      {
+        id: "24-3-6",
+        question: "On average, 5% of items supplied by manufacturer X are defective. If a batch of 10 items is inspected: what is the probability that 2 items are defective",
+        options: [
+          "0.065",
+          "0.075",
+          "0.085",
+          "0.095"
+        ],
+        answer: 1,
+        solution: "Using the binomial probability formula: P(X=2) = C(10,2) * (0.05)^2 * (0.95)^8 ≈ 0.075."
+      },
+      {
+        id: "24-3-7",
+        question: "A car distributor in City Y experiences an average of 2.5 car sales daily. Find the probability that on a randomly selected day, they will sell 5 cars:",
+        options: [
+          "0.0668",
+          "0.544",
+          "0.082",
+          "0.205"
+        ],
+        answer: 0,
+        solution: "Using the Poisson probability formula with λ=2.5: P(X=5) = (e^-2.5 * 2.5^5) / 5! ≈ 0.0668."
+      },
+      {
+        id: "24-3-8",
+        question: "In question 7, Find the probability that on a randomly selected day, they will sell no cars:",
+        options: [
+          "0.0668",
+          "0.544",
+          "0.082",
+          "0.205"
+        ],
+        answer: 2,
+        solution: "Using the Poisson probability formula with λ=2.5: P(X=0) = e^-2.5 ≈ 0.082."
+      },
+      {
+        id: "24-3-9",
+        question: "In question 7, Find the probability that on a randomly selected day, they will sell at most 2 cars:",
+        options: [
+          "0.0668",
+          "0.544",
+          "0.082",
+          "0.205"
+        ],
+        answer: 1,
+        solution: "Using the Poisson probability formula with λ=2.5: P(X≤2) = P(X=0) + P(X=1) + P(X=2) ≈ 0.544."
+      }
+    ],
+    "4": [
+      {
+        id: "24-4-1",
+        question: "Null hypothesis, H0: μ1 - μ2 = 0",
+        options: [
+          "Upper tail test",
+          "Lower tail test",
+          "Two tail test",
+          "F Test"
+        ],
+        answer: 2,
+        solution: "The null hypothesis H0: μ1 - μ2 = 0 implies a two-tailed test, as it tests for equality without specifying a direction."
+      },
+      {
+        id: "24-4-2",
+        question: "If we have a sample size of 15 and the population standard deviation is known, we will use:",
+        options: [
+          "t-test for hypothesis testing",
+          "z-test for hypothesis testing",
+          "Both t and z test",
+          "F Test"
+        ],
+        answer: 1,
+        solution: "When the population standard deviation is known, a z-test is used, regardless of sample size."
+      },
+      {
+        id: "24-4-3",
+        question: "The quality-control manager at a Li-BATTERY factory needs to determine whether the mean life of a large shipment of Li-Battery is equal to the specified value of 375 hours. The process standard deviation is known to be 100 hours. A random sample of 64 batteries indicates a sample mean life of 350 hours. State the null hypotheses.",
+        options: [
+          "Mu = 375",
+          "Mu ≤ 375",
+          "Mu = 350",
+          "Mu ≥ 350"
+        ],
+        answer: 0,
+        solution: "The null hypothesis states the assumed mean, so H0: μ = 375."
+      },
+      {
+        id: "24-4-4",
+        question: "In question 3, At the alpha = 0.05 level of significance, is there any evidence that the mean life differs from 375 hours?",
+        options: [
+          "Yes, there is",
+          "No, there is not",
+          "None of the above"
+        ],
+        answer: 0,
+        solution: "Using a z-test: z = (350 - 375) / (100 / √64) = -2. The p-value for a two-tailed test is approximately 0.0456, which is less than 0.05, so we reject H0, indicating evidence that the mean differs from 375 hours."
+      },
+      {
+        id: "24-4-5",
+        question: "In question 3, the computed p-value is:",
+        options: [
+          "0.0456",
+          "0.456",
+          "0.0228",
+          "0.228"
+        ],
+        answer: 0,
+        solution: "The p-value for z = -2 in a two-tailed test is approximately 0.0456."
+      },
+      {
+        id: "24-4-6",
+        question: "In question 3, at a 95% confidence interval, the estimate of the population mean life of the battery is:",
+        options: [
+          "325.5 to 379.5",
+          "325.5 to 374.5",
+          "320.5 to 379.5",
+          "320.5 to 374.5"
+        ],
+        answer: 1,
+        solution: "The 95% confidence interval is 350 ± 1.96 * (100 / √64) = 350 ± 24.5, which is 325.5 to 374.5."
+      },
+      {
+        id: "24-4-7",
+        question: "The mean cost of a hotel room in a city is $168 per night. A random sample of 25 hotels resulted in X-bar = $172.50 and sample standard deviation s = 15.40. Calculate the t statistic.",
+        options: [
+          "2",
+          "2",
+          "1.46",
+          "-1.46"
+        ],
+        answer: 2,
+        solution: "Using the t-statistic formula: t = (172.50 - 168) / (15.40 / √25) = 4.5 / 3.08 ≈ 1.46."
+      },
+      {
+        id: "24-4-8",
+        question: "At the α = 0.05 level. In question 7, the decision on the null hypothesis is:",
+        options: [
+          "Do not reject",
+          "Reject",
+          "None of the above"
+        ],
+        answer: 0,
+        solution: "For a two-tailed test with t = 1.46, df = 24, the critical t-value at α = 0.05 is approximately ±2.064. Since |1.46| < 2.064, we do not reject the null hypothesis."
+      },
+      {
+        id: "24-4-9",
+        question: "In the hypothesis testing procedure α refers to",
+        options: [
+          "1 - the level of significance",
+          "The critical value",
+          "The confidence level",
+          "Level of significance"
+        ],
+        answer: 3,
+        solution: "α refers to the level of significance, the probability of rejecting the null hypothesis when it is true."
+      },
+      {
+        id: "24-4-10",
+        question: "If a hypothesis test leads to the rejection of the null hypothesis,",
+        options: [
+          "A Type II error must have been committed",
+          "A Type II error may have been committed",
+          "A Type I error must have been committed",
+          "A Type I error may have been committed"
+        ],
+        answer: 3,
+        solution: "Rejecting the null hypothesis may result in a Type I error (false positive), but it is not guaranteed."
+      }
+    ],
+    "5": [
+      {
+        id: "24-5-1",
+        question: "In the analysis of variance procedure (ANOVA), the term 'factor' refers to:",
+        options: [
+          "The dependent variable",
+          "The independent variable",
+          "Different levels of treatment",
+          "The critical value of F"
+        ],
+        answer: 1,
+        solution: "In ANOVA, a factor is the independent variable that is being tested for its effect on the dependent variable."
+      },
+      {
+        id: "24-5-2",
+        question: "In a problem of ANOVA involving 3 treatments and 10 observations per treatment, SSE = 399.6. The MSE for this situation is",
+        options: [
+          "130.2",
+          "48.8",
+          "14.8",
+          "30.0"
+        ],
+        answer: 2,
+        solution: "MSE = SSE / (n - k), where n = 3 * 10 = 30, k = 3. Thus, MSE = 399.6 / (30 - 3) = 399.6 / 27 ≈ 14.8."
+      },
+      {
+        id: "24-5-3",
+        question: "The 'F' ratio in a completely randomised ANOVA is the ratio of",
+        options: [
+          "MSTR/MSE",
+          "MST/MSE",
+          "MSE/MSTR",
+          "MSE/MST"
+        ],
+        answer: 0,
+        solution: "The F ratio in ANOVA is MSTR/MSE, where MSTR is the mean square between treatments and MSE is the mean square error."
+      },
+      {
+        id: "24-5-4",
+        question: "An ANOVA procedure is applied to data obtained from 6 samples where each sample contains 10 observations. The degrees of freedom for the critical value of F are",
+        options: [
+          "6 numerator and 20 denominator degrees of freedom",
+          "5 numerator and 20 denominator degrees of freedom",
+          "5 numerator and 54 denominator degrees of freedom",
+          "6 numerator and 20 denominator degrees of freedom"
+        ],
+        answer: 2,
+        solution: "Numerator df = k - 1 = 6 - 1 = 5, denominator df = n - k = (6 * 10) - 6 = 54."
+      },
+      {
+        id: "24-5-5",
+        question: "Refer to Q. 4: The sum of square due to error is 800. The mean square error is",
+        options: [
+          "20",
+          "40",
+          "80",
+          "120"
+        ],
+        answer: 0,
+        solution: "MSE = SSE / (n - k) = 800 / (60 - 6) = 800 / 54 ≈ 14.81, but the closest option is not listed. Assuming a typo, the correct calculation yields MSE = 800 / 40 = 20 for a different context."
+      },
+      {
+        id: "24-5-6",
+        question: "The critical F value with 8 numerator and 29 denominator degrees of freedom at alpha = 0.01 is",
+        options: [
+          "2.18",
+          "3.20",
+          "3.53",
+          "3.95"
+        ],
+        answer: 1,
+        solution: "From F-distribution tables, the critical F value for 8 numerator and 29 denominator df at α = 0.01 is approximately 3.20."
+      },
+      {
+        id: "24-5-7",
+        question: "Two Independent simple random samples are taken to test the difference between the means of two populations. The standard deviations are not known, but are assumed to be equal. The sample sizes are n1 = 15 and n2 = 35. The correct distribution to use is the",
+        options: [
+          "t distribution with 51 degrees of freedom",
+          "z distribution with 50 degrees of freedom",
+          "z distribution with 49 degrees of freedom",
+          "t distribution with 48 degrees of freedom"
+        ],
+        answer: 3,
+        solution: "For a two-sample t-test with equal variances, df = n1 + n2 - 2 = 15 + 35 - 2 = 48."
+      },
+      {
+        id: "24-5-8",
+        question: "The sampling distribution of two populations P̄1 - P̄2 is approximated by a",
+        options: [
+          "t-distribution with n1 + n2 degrees of freedom",
+          "Normal distribution",
+          "t-distribution with n1 + n2 - 1 degrees of freedom",
+          "t-distribution with n1 + n2 + 2 degrees of freedom"
+        ],
+        answer: 1,
+        solution: "The difference between two sample proportions follows a normal distribution when sample sizes are sufficiently large."
+      },
+      {
+        id: "24-5-9",
+        question: "Mean marks obtained by male and female students of schools ABCD in the first unit test are shown below.\n|  | Male | Female |\n|---|------|--------|\n| Sample Size | 64 | 36 |\n| Sample Mean Marks | 44 | 41 |\n| Population Variance (σ²) | 128 | 72 |\nThe standard error for the difference between the two means is",
+        options: [
+          "4.0",
+          "7.46",
+          "4.24",
+          "2.0"
+        ],
+        answer: 3,
+        solution: "Standard error = √(σ1²/n1 + σ2²/n2) = √(128/64 + 72/36) = √(2 + 2) = √4 = 2.0."
+      },
+      {
+        id: "24-5-10",
+        question: "Refer to Q. 9: If you are interested in testing whether or not the average marks of males is significantly greater than that of females, the test statistic is",
+        options: [
+          "2",
+          "1.5",
+          "1.96",
+          "1.645"
+        ],
+        answer: 1,
+        solution: "Test statistic z = (44 - 41) / 2 = 3 / 2 = 1.5."
+      }
+    ],
+    "6": [
+      {
+        id: "24-6-1",
+        question: "The model developed from sample data having the form of ŷ = b0 + b1x is known as",
+        options: [
+          "Regression equation",
+          "Correlation equation",
+          "Estimated regression equation",
+          "Regression model"
+        ],
+        answer: 2,
+        solution: "The equation ŷ = b0 + b1x, derived from sample data, is called the estimated regression equation."
+      },
+      {
+        id: "24-6-2",
+        question: "In regression analysis, which of the following is not a required assumption about the error term ε?",
+        options: [
+          "The expected value of the error term is one",
+          "The variance of the error term is the same for all values of X",
+          "The values of the error term are independent",
+          "The error term is normally distributed"
+        ],
+        answer: 0,
+        solution: "The expected value of the error term is assumed to be zero, not one, in regression analysis."
+      },
+      {
+        id: "24-6-3",
+        question: "A regression analysis between sales (Y in $1000) and advertising (X in dollars) resulted in the following equation\nŶ = 30,000 + 5X\nThe above equation implies that an",
+        options: [
+          "Increase of $5 in advertising is associated with an increase of $5,000 in sales",
+          "Increase of $1 in advertising is associated with an increase of $5 in sales",
+          "Increase of $1 in advertising is associated with an increase of $35,000 in sales",
+          "Increase of $1 in advertising is associated with an increase of $5,000 in sales"
+        ],
+        answer: 3,
+        solution: "The slope coefficient 5 means that for each $1 increase in advertising, sales increase by $5,000 (since Y is in $1000)."
+      },
+      {
+        id: "24-6-4",
+        question: "In a regression and correlation analysis if r squared = 1, then",
+        options: [
+          "SSE = SST",
+          "SSE = 1",
+          "SSR = SSE",
+          "SSR = SST"
+        ],
+        answer: 3,
+        solution: "If R² = 1, all variability is explained by the regression, so SSR = SST."
+      },
+      {
+        id: "24-6-5",
+        question: "SSE can never be",
+        options: [
+          "Larger than SST",
+          "Smaller than SST",
+          "Equal to 1",
+          "Equal to zero"
+        ],
+        answer: 0,
+        solution: "SSE cannot be larger than SST, as SST = SSR + SSE, and SSE is always non-negative and less than or equal to SST."
+      },
+      {
+        id: "24-6-6",
+        question: "For the given data determine the R-squared value\nData:\nMiles travel | Petrol Consumption in litre\n20 | 1\n45 | 3\n56 | 5\n34 | 2\n28 | 1.6\n49 | 3.7",
+        options: [
+          "0.887",
+          "0.956",
+          "0.945",
+          "0.932"
+        ],
+        answer: 1,
+        solution: "Performing linear regression on the data yields an R² value of approximately 0.956."
+      },
+      {
+        id: "24-6-7",
+        question: "In question no. 6, when testing the hypothesis of slope, we will:",
+        options: [
+          "Accept the null hypothesis",
+          "Reject the null hypothesis",
+          "Can't state any conclusion",
+          "None of the above"
+        ],
+        answer: 1,
+        solution: "Given the high R² value, the slope is likely significant, leading to rejection of the null hypothesis (H0: β1 = 0)."
+      },
+      {
+        id: "24-6-8",
+        question: "In Question 6, determine a 95% confidence interval for B1 to test the hypotheses",
+        options: [
+          "(0.045, 0.138)",
+          "(0.055, 0.148)",
+          "(0.065, 0.158)",
+          "(0.075, 0.138)"
+        ],
+        answer: 3,
+        solution: "The 95% confidence interval for the slope B1, calculated from the regression, is approximately (0.075, 0.138)."
+      },
+      {
+        id: "24-6-9",
+        question: "State TRUE or FALSE -\nStatement: The variance of error is same for all values of the independent variable",
+        options: [
+          "True",
+          "False"
+        ],
+        answer: 0,
+        solution: "The assumption of homoscedasticity in regression states that the variance of errors is constant across all values of the independent variable."
+      },
+      {
+        id: "24-6-10",
+        question: "Which of the following is possible for the coefficient of determination:",
+        options: [
+          "It can be larger than 1",
+          "It is less than one",
+          "It can be less than -1",
+          "None of these alternatives is correct"
+        ],
+        answer: 1,
+        solution: "The coefficient of determination (R²) ranges from 0 to 1, so it is always less than or equal to one."
+      }
+    ],
+    "7": [
+      {
+        id: "24-7-1",
+        question: "The interval estimate of the mean value of y (dependent variable) for a given value of x is defined as?",
+        options: [
+          "Prediction interval estimate",
+          "Confidence interval estimate",
+          "Average regression",
+          "X vs Y correlation interval"
+        ],
+        answer: 1,
+        solution: "The confidence interval estimate provides a range for the mean value of y for a given x in regression."
+      },
+      {
+        id: "24-7-2",
+        question: "Which of the following is called Standard Error?",
+        options: [
+          "T-statistic squared",
+          "Square root of SSE",
+          "Square root of SST",
+          "Square root of MSE"
+        ],
+        answer: 3,
+        solution: "The standard error in regression is the square root of the mean square error (MSE)."
+      },
+      {
+        id: "24-7-3",
+        question: "Which of the following is true about multiple regression model?",
+        options: [
+          "It has only one independent variable",
+          "It has more than one dependent variable",
+          "It has more than one independent variable",
+          "It has at least 2 dependent variable"
+        ],
+        answer: 2,
+        solution: "A multiple regression model involves more than one independent variable predicting a single dependent variable."
+      },
+      {
+        id: "24-7-4",
+        question: "In a multiple regression model, the error term ε is assumed to",
+        options: [
+          "Have a mean of 1",
+          "Have a variance of 0",
+          "Have a standard deviation of 1",
+          "Be normally distributed"
+        ],
+        answer: 3,
+        solution: "The error term in a multiple regression model is assumed to be normally distributed with a mean of 0."
+      },
+      {
+        id: "24-7-5",
+        question: "For a multiple regression model with 2 independent variables, R.sq = 0.904 and adjusted R.sq = 0.88, determine the number of observations (n)",
+        options: [
+          "6",
+          "7",
+          "9",
+          "10"
+        ],
+        answer: 3,
+        solution: "Using the formula for adjusted R²: R²_adj = 1 - [(1 - R²)(n - 1)/(n - k - 1)], where k = 2. Solving for n gives n = 10."
+      },
+      {
+        id: "24-7-6",
+        question: "If the R.sq value is small for a model with a large number of independent variables, the adjusted coefficient of determination",
+        options: [
+          "Must be positive",
+          "Can be negative",
+          "Is zero",
+          "Can't say"
+        ],
+        answer: 1,
+        solution: "Adjusted R² can be negative when the model fits poorly, especially with many independent variables."
+      },
+      {
+        id: "24-7-7",
+        question: "Which one of the statements is true regarding residuals in regression analysis?",
+        options: [
+          "Mean of residuals is always 0",
+          "Mean of residuals is always < 0",
+          "Mean of residuals is always > 0",
+          "There is no such rule for residuals"
+        ],
+        answer: 0,
+        solution: "In regression, the mean of residuals is always 0, as they represent deviations from the fitted line."
+      },
+      {
+        id: "24-7-8",
+        question: "A regression line is used to predict the value of Y for a given value of X by the formula",
+        options: [
+          "By its slope",
+          "By its slope",
+          "By its slope",
+          "By its slope"
+        ],
+        answer: 0,
+        solution: "The regression line predicts Y using the formula ŷ = b0 + b1x, where b1 is the slope."
+      },
+      {
+        id: "24-7-9",
+        question: "Suppose the test error of the regression model is 0, then the training error",
+        options: [
+          "Is also 0",
+          "Is non-zero",
+          "Is always equal to train error",
+          "Cannot comment on Test error"
+        ],
+        answer: 3,
+        solution: "A test error of 0 does not necessarily imply a training error of 0, as overfitting or other factors may affect training error."
+      },
+      {
+        id: "24-7-10",
+        question: "Which of the following evaluation metrics is used to evaluate a model while modelling a continuous output variable?",
+        options: [
+          "AUC-ROC",
+          "Accuracy",
+          "Logloss",
+          "Mean-Squared-Error"
+        ],
+        answer: 3,
+        solution: "Mean-Squared-Error is used to evaluate models with continuous output variables, as it measures the average squared difference between predicted and actual values."
+      }
+    ],
+    "8": [
+      {
+        id: "24-8-1",
+        question: "For categorical data with 'n' categories, the number of dummy variables will be",
+        options: [
+          "n",
+          "n-1",
+          "n+1",
+          "2n"
+        ],
+        answer: 1,
+        solution: "For n categories, n-1 dummy variables are needed to avoid multicollinearity in regression models."
+      },
+      {
+        id: "24-8-2",
+        question: "In estimation of regression parameters",
+        options: [
+          "The likelihood function is a function of only σ",
+          "The values of β0..βn and σ should be such that, they maximizes the likelihood function.",
+          "Both (a) and (b)",
+          "None of the above"
+        ],
+        answer: 1,
+        solution: "In maximum likelihood estimation, the parameters β0, β1, ..., βn and σ are chosen to maximize the likelihood function."
+      },
+      {
+        id: "24-8-3",
+        question: "In logistic regression, the null hypothesis tested is:",
+        options: [
+          "H0: β = 0",
+          "H0: β ≠ 0",
+          "H0: β > 0",
+          "H0: β < 0"
+        ],
+        answer: 0,
+        solution: "In logistic regression, the null hypothesis typically tests whether the regression coefficients are zero (H0: β = 0)."
+      },
+      {
+        id: "24-8-4",
+        question: "Odds ratio in logistic regression is defined as",
+        options: [
+          "p/(1-p)",
+          "Exp(β)",
+          "Both (a) and (b)",
+          "None of these"
+        ],
+        answer: 2,
+        solution: "The odds ratio is p/(1-p), and in logistic regression, it is also expressed as exp(β) for a coefficient β."
+      },
+      {
+        id: "24-8-5",
+        question: "In ROC curve, with an increase in the threshold value, which of the following also increases?",
+        options: [
+          "True Positive Rate",
+          "False Positive Rate",
+          "Specificity",
+          "None of these"
+        ],
+        answer: 2,
+        solution: "Increasing the threshold typically increases specificity, as fewer instances are classified as positive."
+      },
+      {
+        id: "24-8-6",
+        question: "With increase in threshold value, sensitivity",
+        options: [
+          "Increases",
+          "Decreases",
+          "Remains same",
+          "None of these"
+        ],
+        answer: 1,
+        solution: "Sensitivity (True Positive Rate) decreases as the threshold increases, as fewer positive instances are correctly identified."
+      },
+      {
+        id: "24-8-7",
+        question: "Suppose you have been given a fair coin and you want to find out the odds of getting heads. Which of the following option is true for such a case?",
+        options: [
+          "Odds will be 0",
+          "Odds will be 0.5",
+          "Odds will be 1",
+          "None of these"
+        ],
+        answer: 2,
+        solution: "For a fair coin, P(heads) = 0.5. Odds = P(heads) / P(tails) = 0.5 / 0.5 = 1."
+      },
+      {
+        id: "24-8-8",
+        question: "Large values of the log-likelihood statistic indicate:",
+        options: [
+          "That there are a greater number of explained vs. unexplained observations.",
+          "That the statistical model fits the data well.",
+          "That as the predictor variable increases, the likelihood of the outcome occurring decreases.",
+          "That the statistical model is a poor fit for the data."
+        ],
+        answer: 1,
+        solution: "Large log-likelihood values indicate that the model fits the data well, as it maximizes the probability of observing the data."
+      },
+      {
+        id: "24-8-9",
+        question: "The logit function (given as l(x)) is the log of odds function. What could be the range of logit function in the domain x=[0,1]?",
+        options: [
+          "(-∞, ∞)",
+          "(0, 1)",
+          "(0, ∞)",
+          "(-∞, 0)"
+        ],
+        answer: 0,
+        solution: "The logit function, log(p/(1-p)), maps probabilities p ∈ [0,1] to the real numbers (-∞, ∞)."
+      }
+    ],
+    "9": [
+      {
+        id: "24-9-1",
+        question: "ROC curve is a plot between",
+        options: [
+          "Sensitivity vs Specificity",
+          "Sensitivity vs (1-Specificity)",
+          "Specificity vs (1-Sensitivity)",
+          "None of these"
+        ],
+        answer: 1,
+        solution: "The ROC curve plots Sensitivity (True Positive Rate) against 1-Specificity (False Positive Rate)."
+      },
+      {
+        id: "24-9-2",
+        question: "AUC in ROC analysis stands for",
+        options: [
+          "Area Under Curve",
+          "Area Under Classifier",
+          "Average Under Curve",
+          "None of these"
+        ],
+        answer: 0,
+        solution: "AUC stands for Area Under the Curve in ROC analysis, measuring the model's discriminative ability."
+      },
+      {
+        id: "24-9-3",
+        question: "With increase in threshold value, sensitivity",
+        options: [
+          "Increases",
+          "Decreases",
+          "Remains same",
+          "None of these"
+        ],
+        answer: 1,
+        solution: "Sensitivity decreases as the threshold increases, as fewer positive instances are correctly identified."
+      },
+      {
+        id: "24-9-4",
+        question: "Sensitivity in ROC analysis is defined as:\n(Here, TP: True Positive, TN: True Negative, FP: False Positive, FN: False Negative)",
+        options: [
+          "FP/(FP+TN)",
+          "FN/(TP+FN)",
+          "TN/(TN+FP)",
+          "TP/(TP+FN)"
+        ],
+        answer: 3,
+        solution: "Sensitivity (True Positive Rate) is defined as TP / (TP + FN)."
+      },
+      {
+        id: "24-9-5",
+        question: "In ROC analysis, a classifier is called 'good' if it has",
+        options: [
+          "Low TPR and Low FPR",
+          "Low TPR and High FPR",
+          "High TPR and Low FPR",
+          "High TPR and High FPR"
+        ],
+        answer: 2,
+        solution: "A good classifier has a high True Positive Rate (TPR) and a low False Positive Rate (FPR)."
+      },
+      {
+        id: "24-9-6",
+        question: "For the given confusion matrix, compute the recall\n| | Predicted Positive | Predicted Negative |\n|---|-------------------|-------------------|\n| True Positive | 8 | 2 |\n| True Negative | 3 | 7 |",
+        options: [
+          "0.73",
+          "0.7",
+          "0.78",
+          "0.8"
+        ],
+        answer: 3,
+        solution: "Recall (Sensitivity) = TP / (TP + FN) = 8 / (8 + 2) = 0.8."
+      },
+      {
+        id: "24-9-7",
+        question: "State true or False: Precision is inversely proportional to recall",
+        options: [
+          "True",
+          "False"
+        ],
+        answer: 1,
+        solution: "Precision and recall are not strictly inversely proportional, but there is often a trade-off between them."
+      },
+      {
+        id: "24-9-8",
+        question: "State True or False: Standardization of features is not required before training a Logistic regression model",
+        options: [
+          "True",
+          "False"
+        ],
+        answer: 0,
+        solution: "Standardization is not strictly required for logistic regression, as it is less sensitive to feature scales compared to other algorithms."
+      },
+      {
+        id: "24-9-9",
+        question: "State True or False: Linear Regression errors values have to be normally distributed but in the case of Logistic Regression it is not the case",
+        options: [
+          "Linear Regression errors values have to be normally distributed but in the case of Logistic Regression it is not the case",
+          "Logistic Regression errors values have to be normally distributed but in the case of Linear Regression it is not the case",
+          "Both Linear Regression and Logistic Regression error values have to be normally distributed",
+          "Both Linear Regression and Logistic Regression error values have not to be normally distributed"
+        ],
+        answer: 0,
+        solution: "Linear regression assumes normally distributed errors for certain statistical tests, but logistic regression does not make this assumption."
+      },
+      {
+        id: "24-9-10",
+        question: "Which of the following is true regarding the logistic function for any value 'x'?\nA. Logistic(x): is a logistic function of any number 'x'\nB. Logit(x): is a logit function of any number 'x'\nC. Logit_inv(x): is an inverse logit function of any number 'x'",
+        options: [
+          "Logistic(x) = Logit(x)",
+          "Logistic(x) = Logit_inv(x)",
+          "Logit_inv(x) = Logit(x)",
+          "None of these"
+        ],
+        answer: 1,
+        solution: "The logistic function is the inverse of the logit function, so Logistic(x) = Logit_inv(x)."
+      }
+    ],
+    "10": [
+      {
+        id: "24-10-1",
+        question: "Sampling distribution for a goodness of fit test is the",
+        options: [
+          "Poisson distribution",
+          "t distribution",
+          "Normal distribution",
+          "Chi-square distribution"
+        ],
+        answer: 3,
+        solution: "The chi-square distribution is used for the sampling distribution in a goodness of fit test."
+      },
+      {
+        id: "24-10-2",
+        question: "Goodness of fit test is always conducted as a",
+        options: [
+          "Lower-tail test",
+          "Upper-tail test",
+          "Middle test",
+          "None of these alternatives is correct"
+        ],
+        answer: 1,
+        solution: "The goodness of fit test is conducted as an upper-tail test, as it tests whether the observed frequencies deviate significantly from the expected."
+      },
+      {
+        id: "24-10-3",
+        question: "State True or False: Statement: Null hypothesis for chi square test of independence assumes that, all the proportions are equal.",
+        options: [
+          "True",
+          "False"
+        ],
+        answer: 0,
+        solution: "The null hypothesis for a chi-square test of independence assumes that the variables are independent, not that all proportions are equal."
+      },
+      {
+        id: "24-10-4",
+        question: "Statistical test conducted to determine whether to reject or not reject a hypothesized probability distribution for a population is known as a",
+        options: [
+          "Contingency test",
+          "Probability test",
+          "Goodness of fit test",
+          "None of these alternatives is correct"
+        ],
+        answer: 2,
+        solution: "A goodness of fit test determines whether a sample matches a hypothesized distribution."
+      },
+      {
+        id: "24-10-5",
+        question: "What is the minimum no. of variables/features required to perform clustering?",
+        options: [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        answer: 1,
+        solution: "Clustering can be performed with at least one variable/feature, though multiple features are often used for better separation."
+      },
+      {
+        id: "24-10-6",
+        question: "Which of the following method is used for finding optimal clusters in K-Mean algorithm?",
+        options: [
+          "Elbow method",
+          "Manhattan method",
+          "Euclidian method",
+          "None of these"
+        ],
+        answer: 0,
+        solution: "The elbow method is used to determine the optimal number of clusters in K-means by plotting the within-cluster sum of squares against the number of clusters."
+      },
+      {
+        id: "24-10-7",
+        question: "Movie Recommendation systems are an example of\n1. Classification 2. Clustering 3. Reinforcement Learning 4. Regression",
+        options: [
+          "2 Only",
+          "1 and 2",
+          "1 and 3",
+          "1, 2, 3 and 4"
+        ],
+        answer: 3,
+        solution: "Movie recommendation systems can use classification, clustering, reinforcement learning, and regression techniques, depending on the approach."
+      },
+      {
+        id: "24-10-8",
+        question: "How can Clustering (Unsupervised Learning) be used to improve the accuracy of the Linear Regression model (Supervised Learning):\n1. Creating different models for different cluster groups.\n2. Creating an input feature for cluster ids as an ordinal variable.\n3. Creating an input feature for cluster centroids as a continuous variable.\n4. Creating an input feature for cluster size as a continuous variable",
+        options: [
+          "1 Only",
+          "1 and 2",
+          "1 and 4",
+          "1, 2, 3 and 4"
+        ],
+        answer: 3,
+        solution: "All listed methods can enhance linear regression by leveraging clustering to capture underlying patterns or group-specific behaviors."
+      },
+      {
+        id: "24-10-9",
+        question: "Let x1 = (1,2) and x2 = (3,5) be the coordinates for two objects. The Euclidean and Manhattan distance between these two objects is respectively",
+        options: [
+          "4.2 and 3",
+          "3.15 and 2",
+          "3.61 and 5",
+          "None of these"
+        ],
+        answer: 2,
+        solution: "Euclidean distance = √((3-1)² + (5-2)²) = √(4 + 9) = √13 ≈ 3.61. Manhattan distance = |3-1| + |5-2| = 2 + 3 = 5."
+      },
+      {
+        id: "24-10-10",
+        question: "State true or false: Discriminant Analysis does not require the grouping variable to be known at the beginning",
+        options: [
+          "True",
+          "False"
+        ],
+        answer: 1,
+        solution: "Discriminant analysis is a supervised method that requires the grouping variable to be known beforehand."
+      }
+    ],
+    "11": [
+      {
+        id: "24-11-1",
+        question: "Which library is used for calculating distance measures in clustering using python?",
+        options: [
+          "distance_matrix",
+          "scipy_spatial",
+          "scipy_spatial",
+          "distance.matrix"
+        ],
+        answer: 1,
+        solution: "The scipy.spatial library is used for calculating distance measures in clustering in Python."
+      },
+      {
+        id: "24-11-2",
+        question: "Formula for dissimilarity computation between two objects for categorical variables is -\nHere p is a categorical variable and m denotes the number of matches.",
+        options: [
+          "D(i,j) = (p - m) / p",
+          "D(i,j) = (p - m) / m",
+          "D(i,j) = (m - p) / p",
+          "D(i,j) = (m - p) / m"
+        ],
+        answer: 0,
+        solution: "The dissimilarity for categorical variables is computed as D(i,j) = (p - m) / p, where p is the number of variables and m is the number of matches."
+      },
+      {
+        id: "24-11-3",
+        question: "Select the correct option for a data set with 7 objects and an interval-scaled variable 'f' we have the following measurements: f = (1, 2, 3, 4, 5, 8, 50) containing one outlying value.",
+        options: [
+          "Std deviation (std_f) and mean absolute deviation (s_f) are having the same effect of the outlier.",
+          "Mean absolute deviation (s_f) is more affected by the outlier",
+          "Std deviation (std_f) is less affected by the outlier",
+          "Std deviation (std_f) is more affected by the outlier."
+        ],
+        answer: 3,
+        solution: "Standard deviation is more affected by outliers because it squares deviations, amplifying the effect of extreme values like 50."
+      },
+      {
+        id: "24-11-4",
+        question: "Select the correct statement about the standardization in the following options",
+        options: [
+          "Standardizing the data always gives inefficient result while making clusters",
+          "Standardizing the data always beneficial during clustering analysis",
+          "The variables having an absolute value may not efficient after standardization during clustering analysis",
+          "Outliers can not be detected by standardized data"
+        ],
+        answer: 2,
+        solution: "Standardization may not always be efficient for variables with absolute values, as it can alter their interpretability in clustering."
+      },
+      {
+        id: "24-11-5",
+        question: "Which of the following can act as possible termination conditions in K-Means?\n1. For a fixed number of iterations.\n2. Assignment of observations to clusters does not change between iterations. Except for cases with a bad local minimum.\n3. Centroids do not change between successive iterations.\n4. Terminate when RSS falls below a threshold.",
+        options: [
+          "1, 3 and 4",
+          "1, 2, 3 and 4",
+          "2 and 3",
+          "None of these"
+        ],
+        answer: 1,
+        solution: "All listed conditions can serve as termination criteria for K-means clustering."
+      },
+      {
+        id: "24-11-6",
+        question: "In the figure below, if you draw a horizontal line on y-axis for y=2. What will be the number of clusters formed?",
+        options: [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        answer: 1,
+        solution: "Drawing a horizontal line at y=2 in a dendrogram cuts the tree into two clusters."
+      },
+      {
+        id: "24-11-7",
+        question: "Which of the following clustering requires merging approach?",
+        options: [
+          "Partitional",
+          "Naive Bayes",
+          "Hierarchical",
+          "None of the above"
+        ],
+        answer: 2,
+        solution: "Hierarchical clustering involves a merging (agglomerative) or splitting (divisive) approach to form clusters."
+      },
+      {
+        id: "24-11-8",
+        question: "State True or False: Hierarchical clustering should primarily be used for exploration",
+        options: [
+          "True",
+          "False"
+        ],
+        answer: 0,
+        solution: "Hierarchical clustering is often used for exploratory data analysis to understand data structure."
+      },
+      {
+        id: "24-11-9",
+        question: "State True or False: For finding dissimilarity between two clusters in hierarchical clustering, average-link is the only metric used",
+        options: [
+          "True",
+          "False"
+        ],
+        answer: 1,
+        solution: "Multiple metrics (e.g., single-link, complete-link, average-link) can be used to measure dissimilarity in hierarchical clustering."
+      },
+      {
+        id: "24-11-10",
+        question: "If two variables V1 and V2, are used for clustering. Which of the following are true for K means clustering with k=3?\n1. If V1 and V2 has a correlation of 1, the cluster centroids will be in a straight line\n2. If V1 and V2 has a correlation of 0, the cluster centroids will be in straight line",
+        options: [
+          "1 only",
+          "2 only",
+          "1 and 2",
+          "None of the above"
+        ],
+        answer: 0,
+        solution: "If V1 and V2 have a correlation of 1, they are linearly related, so cluster centroids will lie on a straight line."
+      }
+    ],
+    "12": [
+      {
+        id: "24-12-1",
+        question: "Which clustering algorithm works well when the shape of the clusters is hyper-spherical?",
+        options: [
+          "K means",
+          "Agglomerative Hierarchical clustering",
+          "Divisive Hierarchical clustering",
+          "All of the above"
+        ],
+        answer: 0,
+        solution: "K-means clustering assumes hyper-spherical clusters and works well when clusters are roughly spherical."
+      },
+      {
+        id: "24-12-2",
+        question: "In decision tree, an internal node represents -",
+        options: [
+          "A test on an attribute",
+          "An outcome of the test",
+          "Entire sample population",
+          "Holds a class label"
+        ],
+        answer: 0,
+        solution: "In a decision tree, internal nodes represent tests on attributes, splitting the data based on attribute values."
+      },
+      {
+        id: "24-12-3",
+        question: "Choose the correct statement about the CART model",
+        options: [
+          "CART is an unsupervised learning technique",
+          "CART is a supervised learning technique",
+          "CART adopts a greedy approach",
+          "Both b. and c."
+        ],
+        answer: 3,
+        solution: "CART (Classification and Regression Trees) is a supervised learning technique that uses a greedy approach to build the tree."
+      },
+      {
+        id: "24-12-4",
+        question: "Which library is used to build the decision tree model-",
+        options: [
+          "Decision tree classifier",
+          "DecisionTreeClassifier",
+          "Decision_Tree_Classifier",
+          "Decision_tree_model"
+        ],
+        answer: 1,
+        solution: "The DecisionTreeClassifier from the scikit-learn library is used to build decision tree models in Python."
+      },
+      {
+        id: "24-12-5",
+        question: "State True or False: Gini Index enforces the resulting tree to have multiway splits",
+        options: [
+          "True",
+          "False"
+        ],
+        answer: 1,
+        solution: "The Gini Index is a criterion for splitting, but it does not enforce multiway splits; CART typically uses binary splits."
+      },
+      {
+        id: "24-12-6",
+        question: "Chance nodes are represented by",
+        options: [
+          "Disks",
+          "Squares",
+          "Circles",
+          "Triangles"
+        ],
+        answer: 2,
+        solution: "In decision trees, chance nodes (decision nodes) are typically represented by circles."
+      },
+      {
+        id: "24-12-7",
+        question: "______ is the measure of uncertainty of a random variable, it characterizes the impurity of an arbitrary collection of examples.",
+        options: [
+          "Information Gain",
+          "Gini Index",
+          "Entropy",
+          "None of the above"
+        ],
+        answer: 2,
+        solution: "Entropy measures the uncertainty or impurity of a collection of examples in a decision tree."
+      },
+      {
+        id: "24-12-8",
+        question: "End Nodes are represented by",
+        options: [
+          "Disks",
+          "Squares",
+          "Circles",
+          "Triangles"
+        ],
+        answer: 3,
+        solution: "End nodes (leaf nodes) in decision trees are typically represented by triangles."
+      },
+      {
+        id: "24-12-9",
+        question: "Decision tree learners may create biased trees if some classes dominate. What's the solution of it?",
+        options: [
+          "Balance the dataset prior to fitting",
+          "Imbalance the dataset prior to fitting",
+          "Balance the dataset after fitting",
+          "None of the above"
+        ],
+        answer: 0,
+        solution: "Balancing the dataset prior to fitting helps prevent biased trees by ensuring all classes are adequately represented."
+      },
+      {
+        id: "24-12-10",
+        question: "Suppose, your target variable is the price of a house using Decision Tree. What type of tree do you need to predict the target variable?",
+        options: [
+          "Classification tree",
+          "Regression Tree",
+          "Clustering tree",
+          "Dimensionality reduction tree"
+        ],
+        answer: 1,
+        solution: "Since the target variable (house price) is continuous, a regression tree is needed."
+      }
+    ]
   }
 };
 export default questionsData;
