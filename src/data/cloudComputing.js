@@ -2224,6 +2224,741 @@ const questionsData = {
             "answer": 0
           }
         ]
+      },
+
+      "2025": {
+        "1": [
+          {
+            "id": "2024-1-1",
+            "question": "Which of the following fall(s) under the 'essential characteristics' of cloud computing?",
+            "options": ["Resource Pooling", "Measured Service", "Rapid Elasticity", "Latency"],
+            "answer": [0, 1, 2]
+          },
+          {
+            "id": "2024-1-2",
+            "question": "\"Google Doc\" is an example of",
+            "options": ["PaaS", "IaaS", "SaaS", "FaaS"],
+            "answer": 2
+          },
+          {
+            "id": "2024-1-3",
+            "question": "Business-Process-as-a-Service is not a part of XaaS.",
+            "options": ["True", "False"],
+            "answer": 1
+          },
+          {
+            "id": "2024-1-4",
+            "question": "Network Function Virtualization involves the implementation of function in software that can run on a range of industry-standard servers",
+            "options": ["network, software", "hardware, software", "hardware, network", "network, hardware"],
+            "answer": 3
+          },
+          {
+            "id": "2024-1-5",
+            "question": "Which are the following applications for SaaS (Software as a Service) architecture?",
+            "options": ["Billing software", "CRM", "App engines", "None of above"],
+            "answer": [0, 1]
+          },
+          {
+            "id": "2024-1-6",
+            "question": "Web access to commercial software is one of the SaaS characteristics in the cloud computing paradigm.",
+            "options": ["True", "False"],
+            "answer": 0
+          },
+          {
+            "id": "2024-1-7",
+            "question": "In the case of the client-server model: Statement (i) Virtualization is a core concept; Statement (ii) system can scale infinitely",
+            "options": ["Only Statement (i) is correct", "Only Statement (ii) is correct", "Both Statements (i) and (ii) are correct", "None of the statements is correct"],
+            "answer": 3
+          },
+          {
+            "id": "2024-1-8",
+            "question": "Client-server model is always load-balanced",
+            "options": ["True", "False"],
+            "answer": 1
+          },
+          {
+            "id": "2024-1-9",
+            "question": "PaaS (Platform as a Service) brings the benefits: (i) Creation of software (ii) Integration of web services and databases",
+            "options": ["Only (i)", "Only (ii)", "Both (i) and (ii)", "Neither (i) nor (ii)"],
+            "answer": 2
+          },
+          {
+            "id": "2024-1-10",
+            "question": "Which of the following is false?",
+            "options": ["Private cloud is dedicated solely to an organization.", "Community cloud is a composition of public and private cloud.", "Public cloud is available to the general public.", "None of these"],
+            "answer": 1
+          }
+        ],
+        "2": [
+          {
+            "id": "2024-2-1",
+            "question": "Service-Oriented Architecture (SOA) possess:",
+            "options": ["A service provider, service requestor and service broker", "A service provider and service requestor", "A service requestor and service broker", "Only a service broker"],
+            "answer": 0
+          },
+          {
+            "id": "2024-2-2",
+            "question": "XML is designed to describe",
+            "options": ["pricing", "SLA", "data", "service"],
+            "answer": 2
+          },
+          {
+            "id": "2024-2-3",
+            "question": "SOAP (Simple Object Access Protocol) does not restrict the endpoint implementation technology choices. SOAP is a platform-neutral choice.",
+            "options": ["True", "False"],
+            "answer": 0
+          },
+          {
+            "id": "2024-2-4",
+            "question": "A Cyber-Physical Cloud Computing (CPCC) architectural framework is a environment that can rapidly build, modify and provision cyber-physical systems composed of a set of based sensor, processing, control, and data services.",
+            "options": ["system, cloud computing", "cloud computing, system", "system, edge computing", "edge, system computing"],
+            "answer": 0
+          },
+          {
+            "id": "2024-2-5",
+            "question": "Network Virtualization is a environment that allows service providers to dynamically compose virtual networks.",
+            "options": ["networking, single, single", "physical, single, multiple", "networking, multiple, single", "networking, multiple, multiple"],
+            "answer": 3
+          },
+          {
+            "id": "2024-2-6",
+            "question": "Customized wearable devices for collecting health parameters are the best examples of",
+            "options": ["IoHT", "Fog device", "Fog-Cloud interfaced", "Cloud-Fog-Edge-IoHT"],
+            "answer": 3
+          },
+          {
+            "id": "2024-2-7",
+            "question": "Dew Computing is a paradigm where on-premises computers provide functionality that is of cloud services and is also collaborative with cloud services",
+            "options": ["dependant", "independent", "partial dependant", "none of these"],
+            "answer": 1
+          },
+          {
+            "id": "2024-2-8",
+            "question": "SOAP uses as transport protocol",
+            "options": ["UDDI", "SLA", "HTTP", "XML"],
+            "answer": 2
+          },
+          {
+            "id": "2024-2-9",
+            "question": "Virtual Machine Monitor is also known as",
+            "options": ["Cluster Manager", "Virtual Machine Handler", "Virtual Machine Manager", "Hypervisor"],
+            "answer": 3
+          },
+          {
+            "id": "2024-2-10",
+            "question": "Which of the following is/are XML parser API(s)?",
+            "options": ["XaaS (Anything as a Model)", "SAX (Simple API to XML)", "CLI (Command Line Interface)", "DOM (Document Object Model)"],
+            "answer": [1, 3]
+          }
+        ],
+        "3": [
+          {
+            "id": "2024-3-1",
+            "question": "Which of the following statement(s) regarding OpenStack storage is/are right?",
+            "options": ["Object storage is managed by Cinder", "Both ephemeral storage and block storage are accessible from within VM", "Block storage persists until VM is terminated", "Ephemeral storage is used to run operating system and/or scratch space"],
+            "answer": [1, 3]
+          },
+          {
+            "id": "2024-3-2",
+            "question": "A task takes time T in a uniprocessor system. In a parallel implementation, the task runs on P processors parallelly. The parallel efficiency is Eff, where 0<Eff<1. What is the time taken by each processor (M) in this implementation?",
+            "options": ["M=T", "M=T/(Eff × P)", "M=T/P", "M=(T × Eff)/P"],
+            "answer": 1
+          },
+          {
+            "id": "2024-3-3",
+            "question": "What does the term \"biasness towards vendors\" imply in the context of SLA monitoring?",
+            "options": ["Vendor-driven selection of monitoring parameters", "Customer-driven selection of monitoring parameters", "Balanced approach in monitoring parameters"],
+            "answer": 0
+          },
+          {
+            "id": "2024-3-6",
+            "question": "Statement 1: In ephemeral storage, the stored objects persist until the VM is terminated. Statement 2: The ephemeral storage is managed by Cinder in OpenStack.",
+            "options": ["Statement 1 is TRUE, Statement 2 is FALSE", "Statement 2 is TRUE, Statement 1 is FALSE", "Both statements are TRUE", "Both statements are FALSE"],
+            "answer": 0
+          },
+          {
+            "id": "2024-3-7",
+            "question": "\"Midsize providers can achieve similar statistical economies to an infinitely large provider\" Does this fall under?",
+            "options": ["Correlated demand", "Dependent demand", "Independent demand", "Mixed demand"],
+            "answer": 2
+          },
+          {
+            "id": "2024-3-8",
+            "question": "Let D(t) and R(t) be the instantaneous demand and resources at time t respectively. If demand is exponential (D(t)=e^t), any fixed provisioning interval (tp) according to the current demands will fall linearly behind.",
+            "options": ["TRUE", "FALSE"],
+            "answer": 1
+          },
+          {
+            "id": "2024-3-9",
+            "question": "Which of the following is/are expected common SLA parameter(s) for both Software-as-a-Service and Storage-as-a-Service models?",
+            "options": ["usability", "scalability", "recovery", "None of these"],
+            "answer": 1
+          },
+          {
+            "id": "2024-3-10",
+            "question": "Data retention and deletion by cloud providers do not fall under one of the SLA requirements.",
+            "options": ["True", "False"],
+            "answer": 0
+          }
+        ],
+        "4": [
+          {
+            "id": "2024-4-1",
+            "question": "SQL Azure is a cloud-based relational database service that is based on:",
+            "options": ["Oracle", "SQL Server", "MySQL", "None"],
+            "answer": 1
+          },
+          {
+            "id": "2024-4-2",
+            "question": "Microsoft Azure provides",
+            "options": ["SaaS", "PaaS", "IaaS", "None"],
+            "answer": [0, 1, 2]
+          },
+          {
+            "id": "2024-4-3",
+            "question": "Azure App Service plan defines",
+            "options": ["Region", "Instance size", "Scale count", "None"],
+            "answer": [0, 1, 2]
+          },
+          {
+            "id": "2024-4-4",
+            "question": "The OpenStack component - Glance monitors and meters the OpenStack cloud for billing, benchmarking. State True or False.",
+            "options": ["True", "False"],
+            "answer": 1
+          },
+          {
+            "id": "2024-4-5",
+            "question": "GCP: Choose the correct option(s)",
+            "options": ["To run your web-application, you need to configure only the Google Storage bucket", "\"gcloud app deploy app yami\" the command can be used to deploy your app to app-engine", "After launching your application to app-engine anyone can view the app at http://YOURPROJECT_ID.appspot.com", "\"gcloud app browse\" - can be used to start the local development server for the application"],
+            "answer": [1, 2]
+          },
+          {
+            "id": "2024-4-6",
+            "question": "In OpenStack, the different components of Nova (e.g. scheduler, Compute, api etc.) communicates via:",
+            "options": ["Message Queues", "Neutron", "Conductor", "Swift"],
+            "answer": 0
+          },
+          {
+            "id": "2024-4-7",
+            "question": "In OpenStack, is a system for managing networks and IP addresses.",
+            "options": ["Nova", "Keystone", "Neutron", "None of these"],
+            "answer": 2
+          },
+          {
+            "id": "2024-4-8",
+            "question": "Cloud DataStore in GCP is a NoSQL document database built for automatic scaling, high performance, and ease of application development",
+            "options": ["True", "False"],
+            "answer": 0
+          },
+          {
+            "id": "2024-4-9",
+            "question": "GCP: Which one is/are correct statement(s)?",
+            "options": ["You can reuse the project ID only after you delete the previous project in GCP", "A CNAME alias is a DNS record that lets you use a URL from your own domain to access resources, such as a bucket and objects, in Cloud Storage using your custom domain URL", "\"Multi-Regional\" Storage class is used for the bucket to stream videos and host hot web content accessed frequently around the world", "\"Nearline\" Storage class is used for the bucket to store data accessed frequently in one part of the world"],
+            "answer": [1, 2]
+          },
+          {
+            "id": "2024-4-10",
+            "question": "OpenStack: Which IP use is preferred for transferring data to a VM from (i) Another VM in the same cloud (ii) One organization's network",
+            "options": ["i. Floating IP, ii. Private IP", "i. Private IP, ii. Floating IP", "Floating IP in both cases", "Private IP in both cases"],
+            "answer": 1
+          }
+        ],
+        "5": [
+          {
+            "id": "2024-5-1",
+            "question": "In a SLA negotiation, the provider agreed with the service availability of 98%. The consumer runs the application for X hours/day. At the end of one month [31 days], the total service outage was 12 hrs. However, SLA negotiation (in terms of service availability) is honored.",
+            "options": ["X is atleast 19.74", "X is atmost 19.74", "X is exactly 19.74", "Insufficient information"],
+            "answer": 0
+          },
+          {
+            "id": "2024-5-2",
+            "question": "Average resource demand is 45 units, Baseline (owned) unit cost is 200 units, Time is 10 hours, Peak resource demand is 100 units. If the cloud is cheaper than owning of computer infrastructures, the utility premium is",
+            "options": ["Greater than 2.22", "Less than 2.22", "Atleast 4.45", "Atmost 4.45"],
+            "answer": 1
+          },
+          {
+            "id": "2024-5-3",
+            "question": "In computing, there is a linear relationship between the number of processing cores used and power consumption.",
+            "options": ["TRUE", "FALSE"],
+            "answer": 0
+          },
+          {
+            "id": "2024-5-4",
+            "question": "The takes a series of key/value pairs, processes each and generates zero or more output.",
+            "options": ["map function", "partition function", "reduce function", "None of these"],
+            "answer": 0
+          },
+          {
+            "id": "2024-5-5",
+            "question": "In a MapReduce framework the HDFS block size is 64 MB. We have 6 files of size 64 KB, 65 MB, X MB, Y KB, 67 KB and 127 MB. 24 blocks are created by Hadoop framework. The size of X and Y are respectively [one or more than one options may be correct, select all correct options]:",
+            "options": ["66 and 64", "64 and 64", "64 and 66", "128 and 64"],
+            "answer": [1, 2]
+          },
+          {
+            "id": "2024-5-6",
+            "question": "Which among the following is/are logical resource(s)?",
+            "options": ["Network", "Computer", "Database", "Execution"],
+            "answer": 3
+          },
+          {
+            "id": "2024-5-7",
+            "question": "When load decreases, VM management can be done by",
+            "options": ["Live migrate VMs to more utilized nodes", "Shutdown unused nodes", "Migrate VMs to less utilized nodes", "None of these"],
+            "answer": [0, 1]
+          },
+          {
+            "id": "2024-5-8",
+            "question": "Correspondence between resources required by the users and resources available with the provider is known as",
+            "options": ["Resource provisioning", "Resource adaptation", "Resource mapping", "None of these"],
+            "answer": 2
+          },
+          {
+            "id": "2024-5-9",
+            "question": "Ability or capacity of that system to adjust the resources dynamically to fulfill the requirements of the user is known as",
+            "options": ["Resource provisioning", "Resource adaptation", "Resource mapping", "None of these"],
+            "answer": 1
+          },
+          {
+            "id": "2024-5-10",
+            "question": "Statement 1: Map operation consists of transforming one set of key-value pairs to another. Statement 2: Each reducer groups the results of the map step using the same key.",
+            "options": ["Both statements are true", "Both statements are false", "Statement 1 is true and Statement 2 is false", "Statement 1 is false and Statement 2 is true"],
+            "answer": 0
+          }
+        ],
+        "6": [
+          {
+            "id": "2024-6-1",
+            "question": "Interception is considered as an attack on",
+            "options": ["Confidentiality", "Availability", "Integrity", "Authenticity"],
+            "answer": 0
+          },
+          {
+            "id": "2024-6-2",
+            "question": "Find the correct statement(s):",
+            "options": ["Different types of cloud computing service models provide different levels of security services", "Adapting your on-premises systems to a cloud model requires that you determine what security mechanisms are required and mapping those to controls that exist in your chosen cloud service provider", "Data should be transferred and stored in an encrypted format for security purpose", "All are incorrect statements"],
+            "answer": [0, 1, 2]
+          },
+          {
+            "id": "2024-6-3",
+            "question": "Which of the following is/are example(s) of passive attack?",
+            "options": ["Replay", "Denial of service", "Traffic analysis", "Masquerade"],
+            "answer": 2
+          },
+          {
+            "id": "2024-6-4",
+            "question": "Modification is considered as an attack on",
+            "options": ["Confidentiality", "Availability", "Integrity", "Authenticity"],
+            "answer": 2
+          },
+          {
+            "id": "2024-6-5",
+            "question": "Spoofing is not an example of",
+            "options": ["Deception", "Disclosure", "Usurpation", "Disruption"],
+            "answer": [1, 3]
+          },
+          {
+            "id": "2024-6-6",
+            "question": "Consider the following statements: Statement I: Authorization is the identification of legitimate users. Statement II: Integrity is the protection against data alteration/corruption.",
+            "options": ["Statement I is TRUE and statement II is FALSE", "Statement I is FALSE and statement II is TRUE", "Both statements are TRUE", "Both statements are FALSE"],
+            "answer": 1
+          },
+          {
+            "id": "2024-6-7",
+            "question": "Access policy control refers to",
+            "options": ["Cyclic Inheritance Control", "Virus Attack", "Violation of SoD (separation of duties) Constraint", "Man in the middle attack"],
+            "answer": [0, 2]
+          },
+          {
+            "id": "2024-6-8",
+            "question": "Which of the options is/are considered as the basic components of security?",
+            "options": ["Confidentiality", "Integrity", "Reliability", "Efficiency"],
+            "answer": [0, 1]
+          },
+          {
+            "id": "2024-6-9",
+            "question": "Which of the following is/are not a type of passive attack?",
+            "options": ["Traffic Analysis", "Release of message contents", "Denial of service", "Replay"],
+            "answer": [2, 3]
+          },
+          {
+            "id": "2024-6-10",
+            "question": "Side channel exploitation has the potential to extract RSA & AES secret keys",
+            "options": ["True", "False"],
+            "answer": 0
+          }
+        ],
+        "7": [
+          {
+            "id": "2024-7-1",
+            "question": "The key features of mobile cloud computing (MCC) are",
+            "options": ["Facilitates the quick development, delivery and management of mobile apps", "Uses more device resources because applications are cloud-supported", "Improves reliability with information backed up and stored in the cloud", "None of these"],
+            "answer": [0, 2]
+          },
+          {
+            "id": "2024-7-2",
+            "question": "Dynamic runtime offloading involves the issues of",
+            "options": ["Runtime application partitioning", "Migration of intensive components", "Continuous synchronization for the entire duration of runtime execution platform", "None of these"],
+            "answer": [0, 1, 2]
+          },
+          {
+            "id": "2024-7-3",
+            "question": "What is/are true about cloudlet?",
+            "options": ["Increases the latency in reaching the cloud servers", "Reduces the latency in reaching the cloud servers", "Resides far from the mobile devices", "Resides near to the mobile devices"],
+            "answer": [1, 3]
+          },
+          {
+            "id": "2024-7-4",
+            "question": "What is/are true about mobile cloud computing (MCC)?",
+            "options": ["MCC increases the running cost for computation intensive applications", "MCC reduces the running cost for computation intensive applications", "MCC decreases battery lifetime", "None of these"],
+            "answer": 1
+          },
+          {
+            "id": "2024-7-5",
+            "question": "What is/are true about the execution of services in mobile cloud computing (MCC)?",
+            "options": ["All services are executed in cloud", "Some services are executed in mobile devices and some services are executed in cloud", "All computation intensive services are executed in mobile devices", "None of these"],
+            "answer": 1
+          },
+          {
+            "id": "2024-7-6",
+            "question": "What of the following is/are fog device(s)?",
+            "options": ["Cellular base stations", "Network routers", "WiFi Gateways", "None of these"],
+            "answer": [0, 1, 2]
+          },
+          {
+            "id": "2024-7-7",
+            "question": "What is/are the advantage(s) of fog computing?",
+            "options": ["Reduction in data movement across the network resulting in reduced congestion", "Increase in data movement across the network resulting in increased congestion", "Serving the real-time applications", "None of these"],
+            "answer": [0, 2]
+          },
+          {
+            "id": "2024-7-8",
+            "question": "Consider the following statements: Statement 1: In Geospatial Cloud, it is needed to integrate data from heterogeneous back-end data service. Statement 2: Data services can be inside and/or outside of the cloud environment in Geospatial Cloud.",
+            "options": ["Statement 1 is Correct, but Statement 2 is Incorrect", "Statement 2 is Correct, but Statement 1 is Incorrect", "Both statements are Correct", "Both statements are Incorrect"],
+            "answer": 2
+          },
+          {
+            "id": "2024-7-9",
+            "question": "Which of the following statement(s) is/are FALSE about Fog Computing?",
+            "options": ["Fog nodes present near to the end-user", "Fog computing enables real-time applications", "Fog nodes' response time is much higher than Cloud's", "Network routers, WiFi Gateways will not be capable of running applications"],
+            "answer": [2, 3]
+          },
+          {
+            "id": "2024-7-10",
+            "question": "Which of the following is/are true about Geospatial Cloud Model?",
+            "options": ["It integrates data from homogeneous back-end data services", "Data services can be inside and/or outside the cloud environment", "Data services inside cloud can be run through SaaS service model", "None of the above"],
+            "answer": 1
+          }
+        ],
+        "8": [
+          {
+            "id": "2024-8-1",
+            "question": "An IoT platform's basic building blocks is/are (choose the correct option(s)).",
+            "options": ["Gateway", "Images", "Network and Cloud", "Containers"],
+            "answer": [0, 2]
+          },
+          {
+            "id": "2024-8-2",
+            "question": "is used to delete a local image.",
+            "options": ["Docker rm", "Docker rmi", "Docker rvi", "Docker push"],
+            "answer": 1
+          },
+          {
+            "id": "2024-8-3",
+            "question": "Docker Hub is a registry used to host various docker images.",
+            "options": ["True", "False"],
+            "answer": 0
+          },
+          {
+            "id": "2024-8-4",
+            "question": "enables different networks, spreads in a huge geographical area to connect together and be employed simultaneously by multiple users on demand.",
+            "options": ["Serverless", "IoT Cloud", "Sensor Cloud", "Green Cloud"],
+            "answer": 2
+          },
+          {
+            "id": "2024-8-5",
+            "question": "Virtual machines get virtual access to host resources through a",
+            "options": ["Containers", "Hypervisor", "Both a and b", "Images"],
+            "answer": 1
+          },
+          {
+            "id": "2024-8-6",
+            "question": "Vehicles providing their networking and data processing capabilities to other vehicles through the cloud comes under which service of IoT-based Vehicular Data Clouds.",
+            "options": ["SaaS", "PaaS", "IaaS", "None of these"],
+            "answer": 2
+          },
+          {
+            "id": "2024-8-7",
+            "question": "Sensor data can be easily shared by different groups of users without any extra effort/measure.",
+            "options": ["True", "False"],
+            "answer": 1
+          },
+          {
+            "id": "2024-8-8",
+            "question": "Container is a compile time instance of an image.",
+            "options": ["True", "False"],
+            "answer": 1
+          },
+          {
+            "id": "2024-8-9",
+            "question": "In the context of Green Cloud Computing, the Power Usage Effectiveness is defined as",
+            "options": ["Power Delivered / Overall Power", "Overall Power / Power Delivered", "Overall Power * Power Delivered", "None of these"],
+            "answer": 1
+          },
+          {
+            "id": "2024-8-10",
+            "question": "Statement 1: Sensor-Cloud proxy exposes sensor resources as cloud services. Statement 2: Sensor network is still managed from the Sensor-Cloud Interface via Sensor Network Proxy",
+            "options": ["Statement 1 is True and Statement 2 is False", "Statement 2 is True and Statement 1 is False", "Both statements are True", "Both statements are False"],
+            "answer": 2
+          }
+        ],
+        "9": [
+          {
+            "id": "2024-9-1",
+            "question": "Which of the following statements best describes fog computing?",
+            "options": ["Fog computing refers to a model where data, processing, and applications are concentrated in the cloud rather than at the network edge.", "Fog computing is a term introduced by Cisco Systems to describe a model that centralizes data processing in the cloud to manage wireless data transfer to distributed IoT devices.", "Fog computing is a model where data, processing, and applications are concentrated in devices at the network edge rather than existing almost entirely in the cloud.", "The vision of fog computing is to enable applications on a few connected devices to run directly in the cloud without interaction at the network edge."],
+            "answer": 2
+          },
+          {
+            "id": "2024-9-2",
+            "question": "Which of the following challenges is most effectively addressed by using fog and edge computing instead of a 'cloud-only' approach for IoT applications?",
+            "options": ["Resource management issues related to workload balance and task scheduling in cloud-based environments.", "The inefficiency of processing time-sensitive applications directly in the cloud due to high latency and large data bandwidth requirements.", "The need for improved security and privacy features in cloud-based systems, which are not addressed by fog and edge computing.", "The difficulty in integrating multiple cloud services and platforms for comprehensive IoT data management."],
+            "answer": 1
+          },
+          {
+            "id": "2024-9-3",
+            "question": "Which of the following correctly describes a classification of resource management architectures in fog/edge computing? Threads of a process share",
+            "options": ["Data Flow", "Control", "Tenancy", "Infrastructure"],
+            "answer": 2
+          },
+          {
+            "id": "2024-9-4",
+            "question": "Which of the following characteristics is NOT typically associated with fog computing infrastructure?",
+            "options": ["Location awareness and low latency", "Better bandwidth utilization", "High computational power concentrated solely in the Cloud", "Support for mobility"],
+            "answer": 2
+          },
+          {
+            "id": "2024-9-5",
+            "question": "In the fog computing paradigm, which of the following accurately describes the relationship between local and global analyses?",
+            "options": ["Local analyses are performed exclusively in the Cloud, while global analyses are done at the edge devices.", "Local and global analyses are performed only in the Cloud data centers.", "Local analyses are performed at the edge devices, and global analyses can be either performed at the edge or forwarded to the Cloud.", "Local analyses are conducted by IoT devices, and global analyses are not necessary in fog computing."],
+            "answer": 2
+          },
+          {
+            "id": "2024-9-6",
+            "question": "What is the primary goal of the application placement problem in the Cloud-Fog-Edge framework?",
+            "options": ["To map all applications onto the Cloud servers to maximize computational power.", "To find available resources in the network that satisfy application requirements, respect constraints, and optimize the objective, such as minimizing energy consumption.", "To place all application components on edge devices to ensure low latency.", "To disregard resource capacities and focus solely on network constraints."],
+            "answer": 1
+          },
+          {
+            "id": "2024-9-7",
+            "question": "Which of the following is an example of an application constraint in the application placement problem on the Cloud-Fog-Edge framework?",
+            "options": ["Finite capabilities of CPU and RAM on infrastructure nodes.", "Network latency and bandwidth limitations.", "Locality requirements restricting certain services' executions to specific locations.", "Availability of storage resources in the Fog nodes."],
+            "answer": 2
+          },
+          {
+            "id": "2024-9-8",
+            "question": "What is the primary purpose of offloading in the context of edge computing?",
+            "options": ["To move all data processing from edge nodes to the cloud.", "To augment computing requirements by moving servers, applications, and associated data closer to the network edge.", "To reduce the number of user devices connected to the network.", "To centralize all computational resources in the cloud for better performance."],
+            "answer": 1
+          },
+          {
+            "id": "2024-9-9",
+            "question": "What is the primary goal of a cloud federation?",
+            "options": ["To centralize all cloud services under a single provider.", "To deploy and manage multiple cloud services to meet business needs by collaborating among different Cloud Service Providers (CSPs).", "To limit the geographical reach of cloud services.", "To reduce the number of cloud service providers globally."],
+            "answer": 1
+          },
+          {
+            "id": "2024-9-10",
+            "question": "Which of the following is a key benefit of forming a cloud federation?",
+            "options": ["Centralized control of global cloud services.", "Increased resource utilization and load balancing across multiple Cloud Service Providers (CSPs).", "Reduced collaboration among Cloud Service Providers.", "Limiting the geographical footprint of Cloud Service Providers."],
+            "answer": 1
+          }
+        ],
+        "10": [
+          {
+            "id": "2024-10-1",
+            "question": "Why is VM migration important in cloud computing environments?",
+            "options": ["To centralize all virtual machines on a single server.", "To efficiently distribute VM load across servers, allowing for system maintenance and operational efficiency.", "To permanently shut down under-utilized servers.", "To increase the number of servers in a data center."],
+            "answer": 1
+          },
+          {
+            "id": "2024-10-2",
+            "question": "What is the difference between cold (non-live) and hot (live) VM migration?",
+            "options": ["Cold migration turns off the VM during migration, while hot migration keeps the VM running.", "Cold migration keeps the VM running during migration, while hot migration turns off the VM.", "Both cold and hot migration suspend the VM during the process.", "Cold migration requires more resources than hot migration."],
+            "answer": 0
+          },
+          {
+            "id": "2024-10-3",
+            "question": "Which of the following approaches are commonly used in live VM migration?",
+            "options": ["Cold-copy and Hot-copy.", "Pre-copy and Post-copy.", "Suspend-copy and Resume-copy.", "Start-copy and End-copy."],
+            "answer": 1
+          },
+          {
+            "id": "2024-10-4",
+            "question": "Which of the following is a primary concern during VM migration to ensure service continuity?",
+            "options": ["Maximizing downtime and total migration time", "Minimizing both downtime and total migration time, and avoiding unnecessary disruption of active services", "Allowing resource contention with the migrating OS to speed up the process", "Ensuring that the migration process takes as long as possible to ensure stability"],
+            "answer": 1
+          },
+          {
+            "id": "2024-10-5",
+            "question": "Which phase of live VM migration involves suspending the execution of the VM at the source and copying the remaining dirty pages and CPU state to the destination?",
+            "options": ["Pre-Copy Phase", "Post-Copy Phase", "Stop-and-Copy Phase", "On-Demand Copy Phase"],
+            "answer": 2
+          },
+          {
+            "id": "2024-10-6",
+            "question": "What is the primary advantage of the post-copy live memory migration strategy?",
+            "options": ["It avoids copying any memory pages from the source to the destination.", "It ensures that memory pages are only copied on demand, potentially reducing unnecessary data transfer.", "It copies all memory pages before stopping the VM at the source.", "It immediately restarts the VM at the source after copying the CPU state."],
+            "answer": 1
+          },
+          {
+            "id": "2024-10-7",
+            "question": "Which of the following is NOT a requirement for live VM migration?",
+            "options": ["Load balancing", "Fault tolerance", "Power management", "Data replication"],
+            "answer": 3
+          },
+          {
+            "id": "2024-10-8",
+            "question": "In serial VM migration, what happens to the remaining VMs when the first VM enters the stop-and-copy phase?",
+            "options": ["They continue to provide services", "They are suspended to prevent memory dirtying", "They start their pre-copy cycle", "They are migrated simultaneously"],
+            "answer": 1
+          },
+          {
+            "id": "2024-10-9",
+            "question": "What is a key advantage of using containers in cloud computing?",
+            "options": ["Containers virtualize the hardware to run multiple operating systems", "Containers are heavyweight virtual machines with extensive resource requirements", "Containers package code and dependencies, allowing applications to run consistently across different environments", "Containers require specific hardware configurations to function properly"],
+            "answer": 2
+          },
+          {
+            "id": "2024-10-10",
+            "question": "What is the main function of a Docker container image?",
+            "options": ["To create a virtual machine with its own operating system", "To package an application along with its code, runtime, system tools, libraries, and settings", "To manage physical hardware resources for applications", "To execute applications directly on the host operating system without isolation"],
+            "answer": 1
+          }
+        ],
+        "11": [
+          {
+            "id": "2024-11-1",
+            "question": "Which of the following best describes the key features of dew computing?",
+            "options": ["Independence and collaboration", "Independence and centralization", "Collaboration and decentralization", "Connectivity and scalability"],
+            "answer": 0
+          },
+          {
+            "id": "2024-11-2",
+            "question": "Which of the following best describes serverless computing?",
+            "options": ["Developers manage scalability and orchestration of containers.", "Developers run their logic as functions, and the cloud provider manages scalability", "Developers handle all containerization and runtime environments.", "Developers run their applications directly on dedicated servers."],
+            "answer": 1
+          },
+          {
+            "id": "2024-11-3",
+            "question": "Which of the following best describes Function-as-a-Service (FaaS)?",
+            "options": ["Functions run continuously and scale vertically.", "Functions are triggered by events and executed in isolated environments.", "Functions are always active and manage their own scaling.", "Functions are large, continuously running parts of an application."],
+            "answer": 1
+          },
+          {
+            "id": "2024-11-4",
+            "question": "How does Serverless Computing differ from traditional Cloud Computing?",
+            "options": ["It focuses on system administrators and exposes-server management.", "It targets programmers by abstracting server management and simplifying development.", "It requires developers to handle all operational responsibilities.", "It makes cloud software development more complicated."],
+            "answer": 1
+          },
+          {
+            "id": "2024-11-5",
+            "question": "What is a key benefit of using AWS Lambda for running code?",
+            "options": ["You need to manage AWS resources and scaling.", "You have to focus on operating system management and provisioning.", "You upload code and AWS Lambda handles execution and scaling based on events.", "You must manually handle event sources and log streams."],
+            "answer": 2
+          },
+          {
+            "id": "2024-11-6",
+            "question": "What does Google Cloud Functions primarily handle in terms of execution environment?",
+            "options": ["Server-based environments with manual provisioning", "Fully managed environments with automatic scaling", "Local environments requiring extensive server management", "Dedicated virtual machines for each function"],
+            "answer": 1
+          },
+          {
+            "id": "2024-11-7",
+            "question": "What is the primary focus of Azure Functions for developers?",
+            "options": ["Managing and maintaining servers", "Writing code and configuring functions", "Handling infrastructure scaling manually", "Deploying compiled languages only"],
+            "answer": 1
+          },
+          {
+            "id": "2024-11-8",
+            "question": "What is one major challenge of using renewable energy sources in cloud datacenters?",
+            "options": ["High capital costs and unpredictability", "Increased server maintenance requirements", "Higher energy consumption from non-renewable sources", "Decreased system reliability"],
+            "answer": 0
+          },
+          {
+            "id": "2024-11-9",
+            "question": "What is the primary focus of the power manager component in a sustainable cloud computing datacenter?",
+            "options": ["Controlling the temperature of the datacenter", "Managing the power supply from renewable and grid sources", "Handling virtual machine migrations", "Scheduling workloads to balance energy use"],
+            "answer": 1
+          },
+          {
+            "id": "2024-11-10",
+            "question": "Which component of sustainable cloud computing aims to balance the temperature in cloud datacenters to enhance energy efficiency?",
+            "options": ["Application Design", "Capacity Planning", "Cooling Management", "Renewable Energy"],
+            "answer": 2
+          }
+        ],
+        "12": [
+          {
+            "id": "2024-12-1",
+            "question": "According to the given definition, which of the following statement(s) is (are) true about dew computing?",
+            "options": ["Dew computing is a cloud computing paradigm where all computing is done on the cloud without any reliance on on-premises computers.", "Dew computing is a paradigm where on-premises computers provide functionality that is dependent on cloud services.", "Dew computing is a paradigm where on-premises computers and cloud services are completely isolated from each other and do not collaborate in any way.", "Dew computing is a paradigm where on-premises computers provide functionality that is independent of cloud services and is also collaborative with cloud services."],
+            "answer": 3
+          },
+          {
+            "id": "2024-12-2",
+            "question": "What are the different aspects of CPS?",
+            "options": ["Cyber, physical, and communication only", "Cyber, dynamics, and safety only", "Cyber, physical, computation, dynamics, communication, security, and safety", "Cyber, physical, and computation only"],
+            "answer": 2
+          },
+          {
+            "id": "2024-12-3",
+            "question": "What is the benefit of 5G's ability to scale down in data rates, power, and mobility for IoT devices?",
+            "options": ["It allows for faster data rates and lower latency", "It provides extremely lean and low-cost connectivity solutions", "It enables immersive experiences like VR and AR", "It provides ultra-reliable, low-latency links for mission-critical communications."],
+            "answer": 1
+          },
+          {
+            "id": "2024-12-4",
+            "question": "Fog-Edge computing leads to increased network congestion",
+            "options": ["True", "False"],
+            "answer": 1
+          },
+          {
+            "id": "2024-12-5",
+            "question": "What is(are) the key feature(s) of Mobile Cloud computing for 5G networks?",
+            "options": ["Sharing resources for mobile applications", "Improved reliability due to data storage in the cloud", "Increased resource consumption by mobile applications", "None of these"],
+            "answer": [0, 1]
+          },
+          {
+            "id": "2024-12-6",
+            "question": "Mobility Analytics utilizes the cloud platform for computation and storage.",
+            "options": ["True", "False"],
+            "answer": 0
+          },
+          {
+            "id": "2024-12-7",
+            "question": "In which computing environment is latency fixed due to the location of application modules at the Area Gateway?",
+            "options": ["Fog computing", "Cloud computing", "Serverless Computing", "None of the above"],
+            "answer": 0
+          },
+          {
+            "id": "2024-12-8",
+            "question": "Resource-constrained low-latency devices drive the need of",
+            "options": ["Heterogeneous and distributed computing architectures", "Homogeneous and distributed computing architectures", "Heterogeneous and parallel computing architectures", "Homogeneous and parallel computing architectures"],
+            "answer": 0
+          },
+          {
+            "id": "2024-12-9",
+            "question": "Customized wearable devices for collecting health parameters are the best examples of",
+            "options": ["IoHT", "Fog device", "Fog-Cloud interfaced", "Cloud-Fog-Edge-IoHT"],
+            "answer": 3
+          },
+          {
+            "id": "2024-12-10",
+            "question": "The cyber-physical system involves transdisciplinary approaches, merging the theory of cybernetics, mechatronics, design, and process science.",
+            "options": ["True", "False"],
+            "answer": 0
+          }
+        ]
       }
     
   };
