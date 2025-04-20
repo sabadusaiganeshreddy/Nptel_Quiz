@@ -103,3 +103,27 @@ html, body {
 }
 
 
+/* Background enhancement */
+.course-select-bg {
+  background: linear-gradient(to bottom right, #e0f7fa, #fef9ff);
+}
+
+/* Title Styling */
+.course-title {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 700;
+  color: #2b2b2b;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  color: #555;
+}
+
+/* Button enhancements */
+button.shadow-sm {
+  transition: all 0.2s ease-in-out;
+}
+button.shadow-sm:hover {
+  transform: scale(1.03);
+}
