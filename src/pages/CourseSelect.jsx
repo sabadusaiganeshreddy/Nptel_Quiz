@@ -56,7 +56,7 @@ const CourseSelect = ({ onCourseSelect }) => {
       <Container className="flex-grow-1 py-4">
         <div className="text-center mb-4">
           <h2 className="mb-2">Choose Your Course</h2>
-          <p className="text-muted">Select a course to start practicing with specialized materials</p>
+          <p className="text-muted">Select a course to start practicing with previous year assignment questions</p>
         </div>
 
         <Row className="g-4">
