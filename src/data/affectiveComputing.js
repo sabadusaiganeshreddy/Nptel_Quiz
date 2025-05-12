@@ -1025,7 +1025,7 @@ const questionsData = {
           "Engineers and developers only.",
           "Ethicists and philosophers only.",
           "Users and stakeholders only.",
-          "A combination of engineers, ethicists, users, and other relevant stakeholders."
+          "A combination of the engineers, ethicists, users, and other relevant stakeholders."
         ],
         answer: 3
       }
