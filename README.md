@@ -13,7 +13,7 @@ A modern, responsive quiz app built using **React + Bootstrap**, designed to hel
 
 ## 📸 Demo
 
-Live Site 👉 [Click here to try it](https://your-vercel-app-url.vercel.app)
+Live Site 👉 [Click here to try it]([https://your-vercel-app-url.vercel.app](https://nptel-quiz-ayzatvgvs-sai-ganesh-reddys-projects.vercel.app/))
 
 > 🧪 Works best on Chrome & Mobile Devices too!
 
