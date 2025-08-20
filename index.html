@@ -10,14 +10,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React</title>
     
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-1ENFB9MX3L"></script>
+    <!-- Google tag (gtag.js) - with error handling -->
 <script>
+  // Initialize gtag function even if script fails to load
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-1ENFB9MX3L');
+
+  // Load Google Analytics script with error handling
+  (function() {
+    const script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-1ENFB9MX3L';
+    
+    // Handle script loading errors gracefully
+    script.onerror = function() {
+      console.warn('Google Analytics could not be loaded. This is likely due to ad blockers or privacy settings.');
+    };
+    
+    script.onload = function() {
+      console.info('Google Analytics loaded successfully.');
+    };
+    
+    document.head.appendChild(script);
+  })();
 </script>
   </head>
   <body>
