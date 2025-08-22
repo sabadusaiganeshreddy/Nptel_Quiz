@@ -67,8 +67,8 @@ nptel-quiz/
 
 1. **Clone or Download**
    ```bash
-   git clone https://github.com/yourusername/nptel-study-assistant.git
-   cd nptel-study-assistant
+ git clone https://github.com/sabadusaiganeshreddy/Nptel_Quiz.git
+cd Nptel_Quiz
    ```
 
 2. **Setup Data Files**
